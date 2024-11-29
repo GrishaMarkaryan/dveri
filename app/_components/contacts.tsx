@@ -11,7 +11,7 @@ export default function Contacts({ isMenuOpen, setIsMenuOpen }:
             <div className="flex items-center gap-2 lg:text-sm">
                 <div>
                     <div className="flex font-semibold"> г. Сергиев Посад </div>
-                    <div> Производственная зона, 15/1 </div>
+                    <div> ул. Дружба 14А </div>
                 </div>
             </div>
 
