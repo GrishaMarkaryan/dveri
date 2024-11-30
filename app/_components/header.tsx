@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import Image from "next/image";
-import icon from '@/app/_images/иконка.png'
+import icon from '@/app/_images/icon.jpg'
 import Contacts from './contacts';
 import { TiThMenu } from "react-icons/ti";
 import { useState, useRef, useEffect } from "react";
@@ -50,7 +50,7 @@ export default function Header() {
                     className={`flex lg:flex ${isMenuOpen ? 'flex-col ' : 'hidden h-0'} gap-2 items-center xl:gap-12 text-xl lg:text-base xl:text-xl font-medium pb-7 lg:pb-0`}
                 >
 
-                    <Link href={'/our-production'} onClick={() => setIsMenuOpen(false)}> Продукция </Link>
+                    <Link href={'/our-production'} onClick={() => setIsMenuOpen(false)}> Доставка и монтаж </Link>
                     <Link href={'/about-us'} onClick={() => setIsMenuOpen(false)} > О компании </Link>
                     <Link href={'/our-contacts'} onClick={() => setIsMenuOpen(false)}> Контакты </Link>
                 </div>
