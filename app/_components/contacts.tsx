@@ -11,7 +11,8 @@ export default function Contacts({ isMenuOpen, setIsMenuOpen }:
             <div className="flex items-center gap-2 lg:text-sm">
                 <div>
                     <div className="flex font-semibold"> г. Сергиев Посад </div>
-                    <div> ул. Дружба 14А </div>
+                    <div> ул. Дружбы, 14А, 2 этаж </div>
+
                 </div>
             </div>
 
@@ -19,9 +20,7 @@ export default function Contacts({ isMenuOpen, setIsMenuOpen }:
                 <FaPhoneAlt />
                 <div className="flex flex-col lg:text-sm">
                     <div className="font-medium lg:font-semibold"> Связаться с нами </div>
-                    <div> +7(496)552-21-80 </div>
-                    <div> +7(903)661-06-54 </div>
-                    <div> +7(906)774-65-55 </div>
+                    <div> +7(965)394-94-82 </div>
                 </div>
             </div>
         </div>
