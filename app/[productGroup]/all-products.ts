@@ -1,7 +1,7 @@
-import granitPiano from '@/app/_images/metallicheskie/Гранит Пиано/Гранит Пиано.jpg';
-import granitPianoBezPaneli from '@/app/_images/metallicheskie/Гранит Пиано/без панели.jpg'
+import { piano_data } from '../_images/metallicheskie/Пиано/data';
+import { pianoSmart_data } from '../_images/metallicheskie/Пиано Смарт/data';
 
-import PO_538 from '@/app/_images/mezhkomnatnie/538 ПО/538 ПО.jpg'
+import { po_538_data } from '../_images/mezhkomnatnie/538 ПО/data';
 
 import { StaticImageData } from 'next/image'
 
@@ -28,39 +28,12 @@ type AllProducts = {
 export const allProducts: AllProducts = {
 
     metallicheskie: [
-        {
-            id: 'granit-piano', 
-            URL: '/metallicheskie/granit-piano',
-            name:'Гранит Пиано',
-            photo: granitPiano,
-            price: 'от 34900 ₽',
-            types: [
-                {
-                    name: 'Гранит Пиано',
-                    photo: granitPianoBezPaneli,
-                    color: 'БЕЗ ПАНЕЛИ',
-                    price: '0 ₽',
-                }
-            ]
-        },
+        piano_data,
+        pianoSmart_data,
     
     ],
 
     mezhkomnatnie: [
-        {
-            id: '538 ПО',
-            URL: '/mezhkomnatnie/538 ПО',
-            name: '538 ПО',
-            photo: PO_538,
-            price: 'от 10 640 ₽',
-            types: [
-                {
-                name: '538 ПО',
-                photo: PO_538,   
-                color: 'Шелл Грей',
-                price: 'от 10 640 ₽',
-                },
-            ]
-        },
+        po_538_data
     ],
 }
