@@ -34,6 +34,6 @@ export const allProducts: AllProducts = {
     ],
 
     mezhkomnatnie: [
-        po_538_data
+        po_538_data,
     ],
 }

@@ -13,7 +13,6 @@ export type Products = {
 export default async function ProductGroup({ params }: {
     params: Promise<{
         productGroup: string,
-        productId: string,
     }>
 }) {
     const defineCategory = (input: string) => {
@@ -44,7 +43,7 @@ export default async function ProductGroup({ params }: {
                                 </div>
                             </div>
                         </Link>
-                        <a href="https://wa.me/79036610654" target="blank" className="flex justify-center gap-5 border-2  rounded-3xl md:mt-3 py-2  bg-green-500 text-white">
+                        <a href="https://wa.me/79653949482" target="blank" className="flex justify-center gap-5 border-2  rounded-3xl md:mt-3 py-2  bg-green-500 text-white">
                             <div className="text-xl font-medium"> Заказать </div>
                             <RiWhatsappFill size={35} color="white" />
                         </a>

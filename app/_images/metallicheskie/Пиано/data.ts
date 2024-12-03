@@ -6,7 +6,7 @@ import piano_001 from '@/app/_images/metallicheskie/Пиано/001.jpg'
 export const piano_data = {
     id: 'granit-piano', 
     URL: '/metallicheskie/granit-piano',
-    name:'Гранит Пиано',
+    name:'ГРАНИТ ПИАН',
     photo: piano,
     price: 'от 34900 ₽',
     types: [
