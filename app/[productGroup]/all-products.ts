@@ -6,9 +6,10 @@ import { po_538_data } from '../_images/mezhkomnatnie/538 ПО/data';
 import { StaticImageData } from 'next/image'
 
 interface ProductType {
-  name: string;
   photo: StaticImageData;
-  color: string;
+  type: string;
+  color?: string;
+  size?: string;
   price: string;
 }
 

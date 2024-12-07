@@ -11,15 +11,17 @@ export const granit_piano = {
     price: 'от 34900 ₽',
     types: [
         {
-            name: 'Гранит Пиано',
             photo: piano_000,
-            color: '000 БЕЗ ПАНЕЛИ',
+            type: '000 ()',
+            color: 'Без панели',
+            size: '6 мм',
             price: '0 ₽',
         },
         {
-            name: 'Гранит Пиано',
             photo: piano_001,
-            color: '001',
+            type: '001 (6 мм)',
+            color: 'Светлая',
+            size: '6 мм',
             price: '0 ₽',
         }
     ]

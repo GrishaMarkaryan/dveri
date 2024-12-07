@@ -33,13 +33,13 @@ export default function Header() {
 
     return (
         <div>
-            <div className="flex flex-col lg:flex-row gap-2 w-screen justify-between items-center bg-slate-200 h-fit lg:h-24 fixed z-50">
+            <div className="flex flex-col lg:flex-row gap-2 w-screen justify-between items-center bg-[#4b4b4b] text-white  h-fit lg:h-24 fixed z-50">
 
                 <div className="flex">
                     <div ref={menuIconRef} className="pt-5 cursor-pointer lg:hidden">
                         <TiThMenu size={40} onClick={toggleMenu} />
                     </div>
-                    <Link href={'/'} className="flex ml-4 lg:ml-12 p-3 gap-2 items-center">
+                    <Link href={'/'} className="flex ml-4 lg:ml-12 p-3 gap-2 items-center transition-all ease-linear hover:text-gray-300">
                         <Image src={icon} alt="icon" height={42} />
                         <div className="flex font-bold text-2xl "> ДВЕРНАЯ ЯРМАРКА </div>
                     </Link>
@@ -47,12 +47,12 @@ export default function Header() {
 
                 <div
                     ref={menuListRef}
-                    className={`flex lg:flex ${isMenuOpen ? 'flex-col ' : 'hidden h-0'} gap-2 items-center xl:gap-12 text-xl lg:text-base xl:text-xl font-medium pb-7 lg:pb-0`}
+                    className={`flex lg:flex ${isMenuOpen ? 'flex-col ' : 'hidden h-0'} gap-2 items-center xl:gap-12 text-xl lg:text-base xl:text-xl pb-7 lg:pb-0`}
                 >
 
-                    <Link href={'/our-production'} onClick={() => setIsMenuOpen(false)}> Доставка и монтаж </Link>
-                    <Link href={'/about-us'} onClick={() => setIsMenuOpen(false)} > О компании </Link>
-                    <Link href={'/our-contacts'} onClick={() => setIsMenuOpen(false)}> Контакты </Link>
+                    <Link href={'/our-production'} onClick={() => setIsMenuOpen(false)}> <div className='transition-all ease-linear hover:translate-y-[2px] hover:text-gray-300'> Доставка и монтаж </div></Link>
+                    <Link href={'/about-us'} onClick={() => setIsMenuOpen(false)} > <div className='transition-all ease-linear hover:translate-y-[2px] hover:text-gray-300'> О компании </div> </Link>
+                    <Link href={'/our-contacts'} onClick={() => setIsMenuOpen(false)}> <div className='transition-all ease-linear hover:translate-y-[2px] hover:text-gray-300'> Контакты </div> </Link>
                 </div>
                 <Contacts isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
             </div>

@@ -6,7 +6,7 @@ export default function Production() {
     return (
         <div className="flex flex-col w-full mb-20">
             <div>
-                <div className="flex justify-center p-4 mt-4 text-2xl xl:text-3xl font-medium"> Категории продукции </div>
+                <div className="flex justify-center p-4 mt-4 text-2xl xl:text-3xl font-medium"> КАТАЛОГ ДВЕРЕЙ </div>
                 <div className="flex flex-col md:grid md:grid-cols-2 gap-8  xl:gap-12 mx-[20px] xl:mx-[30px] 2xl:mx-[80px] my-7 ">
                     {mainPageProducts.map((product, index) => {
                         return (

@@ -2,7 +2,6 @@
 
 import { allProducts } from "../all-products";
 import Image from "next/image"
-// import { RiWhatsappFill } from "react-icons/ri";
 // import Colors from "@/app/_components/colors";
 
 export default async function Product({ params }: {
@@ -27,31 +26,65 @@ export default async function Product({ params }: {
     }
 
     const productTypes = product.types;
-    // const [color, setColor] = useState('000')
+    // const [doorType, setDoorType] = useState(`${productTypes[0]}`)
 
     return (
         <div>
-            <section className="flex justify-center items-center text-2xl p-4 md:ml-24 m-2 md:m-7 md:bg-slate-200 rounded-xl w-fit md:w-2/5">
+            <section className="flex justify-center items-center text-2xl w-full p-4 bg-stone-200">
                 {`${product.name}`}
             </section>
 
-            <section>
-                <div className="w-fit cursor-pointer">
-                    {product.photo &&
-                        <Image src={product.photo} alt='productPhoto' className="border-2 bg-stone-200" height={150} />
-                    }
-                </div>
-            </section>
+            <div className="flex p-12">
+                <section>
 
-            <section className="flex flex-row justify-left flex-wrap gap-2 mx-4 xl:mx-24">
-                {productTypes && productTypes.map((item) =>
-                    <div key={item.color} className="flex">
-                        <div className="w-fit cursor-pointer">
-                            <Image src={item.photo} alt='productTypesPhoto' className="border-2 bg-stone-200" height={150} />
+                    <div>
+                        <div>{product.name}</div>
+
+                        {productTypes && <div>
+                            <div> Панель {productTypes[0].type} </div>
+                            <div>  {productTypes[0].color} </div>
+                            <div>  {productTypes[0].size} </div>
+                            <div>  {productTypes[0].price} </div>
                         </div>
+                        }
+
+                        {/*<div>{doorType}</div>*/}
                     </div>
-                )}
-            </section>
+
+                    <div className="flex flex-row ">
+                        {productGroup === 'metallicheskie' &&
+                            <div className=" w-fit cursor-pointer"> {/* эта секция только для металлических*/}
+                                {product.photo &&
+                                    <Image src={product.photo} alt='productPhoto' className="border-2 bg-stone-200" height={550} />
+                                }
+                            </div>
+                        }
+
+                        {productTypes && (
+                            <div>  {/* вот тут вместо productTypes[0].photo нужно будет написать doorType.photo */}
+                                <Image src={productTypes[0].photo} alt='productTypesPhoto' className="border-2 bg-stone-200" height={550} />
+                            </div>
+                        )}
+                    </div>
+                </section>
+
+
+                <section >
+
+                    <div className="flex flex-row justify-left flex-wrap gap-2 mx-4">
+                        {productTypes && productTypes.map((item) =>
+                            <div key={item.type} className="flex">
+                                <div className="flex flex-col items-center w-fit cursor-pointer">
+                                    <div> {item.type} </div>
+                                    <Image src={item.photo} alt='productTypesPhoto' className="border-2 bg-stone-200" height={200} />
+                                </div>
+                            </div>
+                        )}
+                    </div>
+
+                </section>
+            </div>
+
         </div>
     )
 }
