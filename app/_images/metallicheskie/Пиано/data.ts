@@ -3,10 +3,10 @@ import piano_000 from '@/app/_images/metallicheskie/Пиано/000.jpg'
 import piano_001 from '@/app/_images/metallicheskie/Пиано/001.jpg'
 
 
-export const piano_data = {
-    id: 'granit-piano', 
-    URL: '/metallicheskie/granit-piano',
-    name:'ГРАНИТ ПИАН',
+export const granit_piano = {
+    id: 'granit_piano', 
+    URL: '/metallicheskie/granit_piano',
+    name:'Гранит Пиано',
     photo: piano,
     price: 'от 34900 ₽',
     types: [

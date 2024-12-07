@@ -1,5 +1,5 @@
-import { piano_data } from '../_images/metallicheskie/Пиано/data';
-import { pianoSmart_data } from '../_images/metallicheskie/Пиано Смарт/data';
+import { granit_piano } from '../_images/metallicheskie/Пиано/data';
+import { granit_piano_smart } from '../_images/metallicheskie/Пиано Смарт/data';
 
 import { po_538_data } from '../_images/mezhkomnatnie/538 ПО/data';
 
@@ -28,8 +28,8 @@ type AllProducts = {
 export const allProducts: AllProducts = {
 
     metallicheskie: [
-        piano_data,
-        pianoSmart_data,
+        granit_piano,
+        granit_piano_smart,
     
     ],
 
