@@ -4,11 +4,13 @@ import { granit_piano_smart } from '../_images/metallicheskie/Пиано Сма�
 import { po_538_data } from '../_images/mezhkomnatnie/538 ПО/data';
 
 import { StaticImageData } from 'next/image'
+import { StaticImport } from 'next/dist/shared/lib/get-img-props';
 
 interface ProductType {
-  name: string;
-  photo: StaticImageData;
-  color: string;
+  photo: StaticImageData | any; // исправить тут any
+  type: string;
+  color?: string;
+  size?: string;
   price: string;
 }
 

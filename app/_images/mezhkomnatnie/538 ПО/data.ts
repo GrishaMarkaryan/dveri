@@ -8,9 +8,8 @@ export const po_538_data = {
     price: 'от 10 640 ₽',
     types: [
         {
-        name: '538 ПО',
         photo: PO_538,   
-        color: 'Шелл Грей',
+        type: 'Шелл Грей',
         price: 'от 10 640 ₽',
         },
     ]

@@ -1,11 +1,15 @@
-// 'use client'   - если добавить, то выдает ошибку, что async await не поддерживают такую 
+{/*В Next.js 15 асинхронные операции поддерживаются только в серверных компонентах. 
+Т.е. в этом файле если написать 'use client', выдаст ошибку.
+Чтобы решить эту проблему, я разделил логику загрузки и отображения данных 
+на серверные (page.tsx) и клиентские компоненты (clientComponent.tsx).
+Серверный компонент будет загружать данные и передавать их в клиентский компонент.
+Клиентский компонент будет отвечать за отображение данных и обработку пользовательских взаимодействий.*/}
+
 
 import { allProducts } from "../all-products";
-import Image from "next/image"
-// import { RiWhatsappFill } from "react-icons/ri";
-// import Colors from "@/app/_components/colors";
+import ClientProduct from "./clientComponent";
 
-export default async function Product({ params }: {
+export default async function ServerProductPage({ params }: {
     params: Promise<{
         productId: string;
         productGroup: string;
@@ -26,32 +30,7 @@ export default async function Product({ params }: {
         return <div> Такого продукта не существует </div>;
     }
 
-    const productTypes = product.types;
-    // const [color, setColor] = useState('000')
-
     return (
-        <div>
-            <section className="flex justify-center items-center text-2xl p-4 md:ml-24 m-2 md:m-7 md:bg-slate-200 rounded-xl w-fit md:w-2/5">
-                {`${product.name}`}
-            </section>
-
-            <section>
-                <div className="w-fit cursor-pointer">
-                    {product.photo &&
-                        <Image src={product.photo} alt='productPhoto' className="border-2 bg-stone-200" height={150} />
-                    }
-                </div>
-            </section>
-
-            <section className="flex flex-row justify-left flex-wrap gap-2 mx-4 xl:mx-24">
-                {productTypes && productTypes.map((item) =>
-                    <div key={item.color} className="flex">
-                        <div className="w-fit cursor-pointer">
-                            <Image src={item.photo} alt='productTypesPhoto' className="border-2 bg-stone-200" height={150} />
-                        </div>
-                    </div>
-                )}
-            </section>
-        </div>
+        <ClientProduct product={product} productGroup={productGroup} />
     )
 }
