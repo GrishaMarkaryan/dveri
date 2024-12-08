@@ -1,10 +1,15 @@
-// 'use client'   - если добавить, то выдает ошибку, что async await не поддерживают такую 
+{/*В Next.js 15 асинхронные операции поддерживаются только в серверных компонентах. 
+Т.е. в этом файле если написать 'use client', выдаст ошибку.
+Чтобы решить эту проблему, я разделил логику загрузки и отображения данных 
+на серверные (page.tsx) и клиентские компоненты (clientComponent.tsx).
+Серверный компонент будет загружать данные и передавать их в клиентский компонент.
+Клиентский компонент будет отвечать за отображение данных и обработку пользовательских взаимодействий.*/}
+
 
 import { allProducts } from "../all-products";
-import Image from "next/image"
-// import Colors from "@/app/_components/colors";
+import ClientProduct from "./clientComponent";
 
-export default async function Product({ params }: {
+export default async function ServerProductPage({ params }: {
     params: Promise<{
         productId: string;
         productGroup: string;
@@ -25,66 +30,7 @@ export default async function Product({ params }: {
         return <div> Такого продукта не существует </div>;
     }
 
-    const productTypes = product.types;
-    // const [doorType, setDoorType] = useState(`${productTypes[0]}`)
-
     return (
-        <div>
-            <section className="flex justify-center items-center text-2xl w-full p-4 bg-stone-200">
-                {`${product.name}`}
-            </section>
-
-            <div className="flex p-12">
-                <section>
-
-                    <div>
-                        <div>{product.name}</div>
-
-                        {productTypes && <div>
-                            <div> Панель {productTypes[0].type} </div>
-                            <div>  {productTypes[0].color} </div>
-                            <div>  {productTypes[0].size} </div>
-                            <div>  {productTypes[0].price} </div>
-                        </div>
-                        }
-
-                        {/*<div>{doorType}</div>*/}
-                    </div>
-
-                    <div className="flex flex-row ">
-                        {productGroup === 'metallicheskie' &&
-                            <div className=" w-fit cursor-pointer"> {/* эта секция только для металлических*/}
-                                {product.photo &&
-                                    <Image src={product.photo} alt='productPhoto' className="border-2 bg-stone-200" height={550} />
-                                }
-                            </div>
-                        }
-
-                        {productTypes && (
-                            <div>  {/* вот тут вместо productTypes[0].photo нужно будет написать doorType.photo */}
-                                <Image src={productTypes[0].photo} alt='productTypesPhoto' className="border-2 bg-stone-200" height={550} />
-                            </div>
-                        )}
-                    </div>
-                </section>
-
-
-                <section >
-
-                    <div className="flex flex-row justify-left flex-wrap gap-2 mx-4">
-                        {productTypes && productTypes.map((item) =>
-                            <div key={item.type} className="flex">
-                                <div className="flex flex-col items-center w-fit cursor-pointer">
-                                    <div> {item.type} </div>
-                                    <Image src={item.photo} alt='productTypesPhoto' className="border-2 bg-stone-200" height={200} />
-                                </div>
-                            </div>
-                        )}
-                    </div>
-
-                </section>
-            </div>
-
-        </div>
+        <ClientProduct product={product} productGroup={productGroup} />
     )
 }
