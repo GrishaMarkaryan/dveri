@@ -16,7 +16,7 @@ export default function ClientProduct({ product, productGroup }: {
         <div>
 
             {productTypes &&
-                <section className="flex flex-col py-4 xl:flex-row justify-center gap-40 bg-stone-100">
+                <section className="flex flex-col py-4 xl:flex-row justify-center gap-40 bg-stone-200">
 
                     <div className="flex flex-col justify-center items-center gap-4 text-2xl font-medium py-6 px-20 rounded-xl">
                         <div className="flex flex-row ">
