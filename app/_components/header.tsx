@@ -35,8 +35,8 @@ export default function Header() {
         <div>
             <div className="flex flex-col lg:flex-row gap-2 w-screen justify-between items-center bg-[#4b4b4b] text-white  h-fit lg:h-24 fixed z-50">
 
-                <div className="flex">
-                    <div ref={menuIconRef} className="pt-5 cursor-pointer lg:hidden">
+                <div className="flex items-center">
+                    <div ref={menuIconRef} className="cursor-pointer lg:hidden">
                         <TiThMenu size={40} onClick={toggleMenu} />
                     </div>
                     <Link href={'/'} className="flex ml-4 lg:ml-12 p-3 gap-2 items-center transition-all ease-linear hover:text-gray-300">

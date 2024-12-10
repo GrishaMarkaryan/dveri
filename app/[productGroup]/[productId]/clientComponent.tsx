@@ -16,13 +16,12 @@ export default function ClientProduct({ product, productGroup }: {
         <div>
 
             {productTypes &&
-                <section className="flex flex-col py-4 xl:flex-row justify-center gap-40 bg-stone-200">
+                <section className="flex flex-col py-4 xl:flex-row justify-center xl:gap-40 bg-stone-200">
 
-                    <div className="flex flex-col justify-center items-center gap-4 text-2xl font-medium py-6 px-20 rounded-xl">
-                        <div className="flex flex-row ">
+                    <div className="flex flex-col justify-center items-center gap-4 text-lg xl:text-2xl font-medium py-6 xl:px-20 rounded-xl">
+                        <div className="flex flex-col xl:flex-row">
                             <div className="flex"> Дверь: <div className="font-bold px-2 text-green-900"> {product.name}, </div></div>
-                            <div> панель {doorType?.type !== '000 ()' && doorType?.type} {doorType?.color} </div>
-                            <div className="pl-2"> {doorType?.size} </div>
+                            <div> панель {doorType?.type !== '000 ()' && doorType?.type} {doorType?.color} {doorType?.size}</div>
                         </div>
                         <div className="text-3xl font-semibold">  {doorType?.price} </div>
                     </div>
@@ -38,26 +37,25 @@ export default function ClientProduct({ product, productGroup }: {
             }
 
 
-            <div className="flex flex-row px-12 py-8 gap-10">
+            <div className="flex flex-col  xl:flex-row px-12 py-8 gap-10">
 
-
-                <div className="flex flex-row ">
+                <div className="flex flex-row justify-center gap-3">
                     {productGroup === 'metallicheskie' &&
-                        <div className=" w-fit cursor-pointer"> {/* эта секция только для металлических*/}
+                        <div className="w-[130px] md:w-[250px] cursor-pointer"> {/* эта секция только для металлических*/}
                             {product.photo &&
-                                <Image src={product.photo} alt='productPhoto' className="border-2 bg-stone-200" height={550} />
+                                <Image src={product.photo} alt='productPhoto' className="border-2 bg-stone-200" />
                             }
                         </div>
                     }
 
                     {productTypes && (
-                        <div>
-                            <Image src={doorType?.photo} alt='productTypesPhoto' className="border-2 bg-stone-200" height={550} />
+                        <div className="w-[130px] md:w-[250px]">
+                            <Image src={doorType?.photo} alt='productTypesPhoto' className="border-2 bg-stone-200" />
                         </div>
                     )}
                 </div>
 
-                <div className="flex flex-row justify-left flex-wrap gap-2 mx-4">
+                <div className="flex flex-row justify-center xl:justify-left flex-wrap gap-2 mx-4">
                     {productTypes && productTypes.map((item: any) =>
                         <div key={item.type} className="flex" onClick={() => setDoorType(item)}>
                             <div className="flex flex-col items-center w-fit cursor-pointer">
