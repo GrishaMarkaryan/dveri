@@ -6,7 +6,7 @@ import Production from "./production";
 
 export default function Main() {
     return (
-        <div>
+        <div className="bg-stone-300">
 
             <Production />
 
