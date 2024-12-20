@@ -36,7 +36,7 @@ export default async function ProductGroup({ params }: {
                                 <Image src={item.photo} alt='itemPhoto' className="md:bg-stone-200 h-full w-full" />
                             </div>
                             <div className="px-2 md:p-3">
-                                <div className="flex text-sm max-w-[150px] md:max-w-none md:font-medium text-lg md:text-xl my-2"> {item.name} </div>
+                                <div className="flex text-sm max-w-[150px] md:max-w-none md:font-medium md:text-xl my-2"> {item.name} </div>
                                 <div className="flex flex-col md:flex-row md:items-center md:gap-3 mt-2">
                                     <div className="font-medium"> Цена: </div>
                                     <div className="text-blue-700"> {item.price}</div>
