@@ -17,6 +17,17 @@ import { granit_piano_belaya } from '../_images/metallicheskie/Пиано Бел
 import { granit_c7 } from '../_images/metallicheskie/С7/data';
 import { granit_c9 } from '../_images/metallicheskie/С9/data';
 import { granit_senator } from '../_images/metallicheskie/Сенатор/data';
+import { granit_sibir } from '../_images/metallicheskie/Сибирь/data';
+import { granit_sibir_steklopaket } from '../_images/metallicheskie/Сибирь Сткеклопакет/data';
+import { granit_simmetriya } from '../_images/metallicheskie/Симметрия/data';
+import { granit_t3 } from '../_images/metallicheskie/Т3/data';
+import { granit_t3m } from '../_images/metallicheskie/Т3М/data';
+import { granit_termorazriv } from '../_images/metallicheskie/Терморазрыв/data';
+import { granit_ultra_c1 } from '../_images/metallicheskie/Ультра С1/data';
+import { granit_ultra_c3 } from '../_images/metallicheskie/Ультра С3/data';
+import { granit_ultra_c4 } from '../_images/metallicheskie/Ультра С4/data';
+import { granit_shtorm } from '../_images/metallicheskie/Шторм/data';
+import { granit_eksklyuziv } from '../_images/metallicheskie/Эксклюзив/data';
 
 import { po_538_data } from '../_images/mezhkomnatnie/538 ПО/data';
 
@@ -65,6 +76,17 @@ export const allProducts: AllProducts = {
         granit_c7,
         granit_c9,
         granit_senator,
+        granit_sibir,
+        granit_sibir_steklopaket,
+        granit_simmetriya,
+        granit_t3,
+        granit_t3m,
+        granit_termorazriv,
+        granit_ultra_c1,
+        granit_ultra_c3,
+        granit_ultra_c4,
+        granit_shtorm,
+        granit_eksklyuziv,
     ],
 
     mezhkomnatnie: [
