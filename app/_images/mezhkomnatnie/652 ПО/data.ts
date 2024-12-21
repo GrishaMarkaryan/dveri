@@ -1,0 +1,16 @@
+import PO_652_1 from '@/app/_images/mezhkomnatnie/652 ПО/Белоснежно матовый.jpg'
+
+export const po_652_data = {
+    id: 'po_652',
+    URL: '/mezhkomnatnie/po_652',
+    name: '652 ПО',
+    photo: PO_652_1,
+    price: 'от 10 640 ₽',
+    types: [
+        {
+            photo: PO_652_1,   
+            type: 'Белоснежно матовый',
+            price: 'от 10 640 ₽',
+        },
+    ]
+}
