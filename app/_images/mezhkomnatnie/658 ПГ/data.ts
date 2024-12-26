@@ -9,7 +9,7 @@ export const po_658_data = {
     id: 'po_658',
     URL: '/mezhkomnatnie/po_658',
     name: '658 ПГ',
-    photo: PO_658_1,
+    photo: PO_658_2,
     price: 'от 10 640 ₽',
     types: [
         {

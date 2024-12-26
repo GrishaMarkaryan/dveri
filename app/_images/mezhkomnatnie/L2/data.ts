@@ -13,7 +13,7 @@ export const l2_data = {
     id: 'l2',
     URL: '/mezhkomnatnie/l2',
     name: 'L2',
-    photo: l2_1,
+    photo: l2_7,
     price: 'от 10 640 ₽',
     types: [
         {

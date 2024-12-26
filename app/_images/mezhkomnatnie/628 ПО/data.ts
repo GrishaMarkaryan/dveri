@@ -9,7 +9,7 @@ export const po_628_data = {
     id: 'po_628',
     URL: '/mezhkomnatnie/po_628',
     name: '628 ПО',
-    photo: PO_628_1,
+    photo: PO_628_2,
     price: 'от 10 640 ₽',
     types: [
         {

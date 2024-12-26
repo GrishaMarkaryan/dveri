@@ -6,7 +6,7 @@ export const po_660_data = {
     id: 'po_660',
     URL: '/mezhkomnatnie/po_660',
     name: '660 ПГ',
-    photo: PO_660_2,
+    photo: PO_660_4,
     price: 'от 10 640 ₽',
     types: [
         {

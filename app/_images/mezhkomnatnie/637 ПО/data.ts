@@ -7,7 +7,7 @@ export const po_637_data = {
     id: 'po_637',
     URL: '/mezhkomnatnie/po_637',
     name: '637 ПО',
-    photo: PO_637_1,
+    photo: PO_637_3,
     price: 'от 10 640 ₽',
     types: [
         {

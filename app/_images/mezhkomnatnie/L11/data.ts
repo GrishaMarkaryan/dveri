@@ -5,7 +5,7 @@ export const l11_data = {
     id: 'l11',
     URL: '/mezhkomnatnie/l11',
     name: 'L11',
-    photo: l11_2,
+    photo: l11_9,
     price: 'от 10 640 ₽',
     types: [
         {

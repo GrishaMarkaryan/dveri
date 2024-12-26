@@ -8,7 +8,7 @@ export const l8_data = {
     id: 'l8',
     URL: '/mezhkomnatnie/l8',
     name: 'L8',
-    photo: l8_2,
+    photo: l8_5,
     price: 'от 10 640 ₽',
     types: [
         {
