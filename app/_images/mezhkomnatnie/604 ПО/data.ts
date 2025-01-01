@@ -1,0 +1,16 @@
+import PO_604_1 from '@/app/_images/mezhkomnatnie/604 ПО/Белоснежно матовый.jpg'
+
+export const po_604_data = {
+    id: 'po_604',
+    URL: '/mezhkomnatnie/po_604',
+    name: '604 ПО',
+    photo: PO_604_1,
+    price: 'от 10 640 ₽',
+    types: [
+        {
+            photo: PO_604_1,   
+            type: 'Белоснежно-матовый',
+            price: 'от 10 640 ₽',
+        },
+    ]
+}

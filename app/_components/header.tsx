@@ -49,10 +49,9 @@ export default function Header() {
                     ref={menuListRef}
                     className={`flex lg:flex ${isMenuOpen ? 'flex-col ' : 'hidden h-0'} gap-2 items-center xl:gap-12 text-xl lg:text-base xl:text-xl pb-7 lg:pb-0`}
                 >
-
-                    <Link href={'/our-production'} onClick={() => setIsMenuOpen(false)}> <div className='transition-all ease-linear hover:translate-y-[2px] hover:text-gray-300'> Доставка и монтаж </div></Link>
-                    <Link href={'/about-us'} onClick={() => setIsMenuOpen(false)} > <div className='transition-all ease-linear hover:translate-y-[2px] hover:text-gray-300'> О компании </div> </Link>
-                    <Link href={'/our-contacts'} onClick={() => setIsMenuOpen(false)}> <div className='transition-all ease-linear hover:translate-y-[2px] hover:text-gray-300'> Контакты </div> </Link>
+                    <Link href={'/our-products'} onClick={() => setIsMenuOpen(false)}> <div className='transition-all ease-linear hover:translate-y-[2px] hover:text-gray-300'> Каталог </div></Link>
+                    <Link href={'/delivery'} onClick={() => setIsMenuOpen(false)} > <div className='transition-all ease-linear hover:translate-y-[2px] hover:text-gray-300'> Доставка и монтаж </div> </Link>
+                    <Link href={'/contacts'} onClick={() => setIsMenuOpen(false)}> <div className='transition-all ease-linear hover:translate-y-[2px] hover:text-gray-300'> Контакты </div> </Link>
                 </div>
                 <Contacts isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
             </div>
