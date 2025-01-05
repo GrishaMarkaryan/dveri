@@ -40,14 +40,14 @@ export default function Main() {
             <div className="flex flex-col items-center justify-center text-white bg-stone-500 py-9">
                 <div className="text-xl md:text-3xl font-bold"> Сомневаетесь в выборе двери? </div>
                 <div className="flex flex-col items-center justify-center text-base md:text-xl font-medium py-6">
-                    <div className="flex flex-col md:flex-row">
-                        <div> Свяжитесь с нами и мы расскажем об</div>
+                    <div className="flex flex-col gap-1 md:flex-row">
+                        <div> Свяжитесь с нами и мы расскажем об </div>
                         <div> особенностях каждого варианта, чтобы </div>
                     </div>
                     <div> вы сделали свой выбор </div>
                 </div>
-                <a href="https://wa.me/79653949482" target="blank" className="flex justify-center items-center w-fit border-2 gap-2 p-4 rounded-lg mt-3 bg-white hover:bg-stone-100 duration-100">
-                    <div className="text-base ml-2 text-stone-700"> Связаться со специалистом </div>
+                <a href="https://wa.me/79653949482" target="blank" className="flex justify-center items-center w-fit border-2 gap-2 p-4 rounded-lg mt-3 text-stone-700 outline-none border-none bg-white hover:bg-blue-500 hover:text-gray-50 duration-300">
+                    <div className="text-base ml-2 "> Связаться со специалистом </div>
                 </a>
             </div>
         </div >
