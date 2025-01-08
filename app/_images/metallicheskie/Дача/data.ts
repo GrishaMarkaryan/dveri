@@ -1,5 +1,5 @@
-import Dacha from '@/app/_images/metallicheskie/Дача/Дача.jpg';
-import Dacha_001 from '@/app/_images/metallicheskie/Дача/001.jpg';
+import Dacha from './Дача.jpg';
+import Dacha_001 from './001.jpg';
 
 export const granit_Dacha = {
     id: 'granit_Dacha', 
