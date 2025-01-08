@@ -1,4 +1,4 @@
-import t3m from './т3м.jpg';
+import t3m from './Т3М.jpg';
 import t3m_000 from './000.jpg';
 import t3m_001 from './001.jpg';
 import t3m_002 from './002.jpg';

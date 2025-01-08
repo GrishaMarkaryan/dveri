@@ -1,4 +1,4 @@
-import m1 from './м1.jpg';
+import m1 from './М1.jpg';
 import m1_000 from './000.jpg';
 import m1_001 from './001.jpg';
 import m1_002 from './002.jpg';

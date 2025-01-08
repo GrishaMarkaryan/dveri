@@ -1,4 +1,4 @@
-import termorazriv from './терморазрыв.jpg';
+import termorazriv from './Терморазрыв.jpg';
 import termorazriv_000 from './000.jpg';
 import termorazriv_001 from './001.jpg';
 import termorazriv_002 from './002.jpg';

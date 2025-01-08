@@ -1,4 +1,4 @@
-import m2_lyuks from './м2 люкс.jpg';
+import m2_lyuks from './М2 Люкс.jpg';
 import m2_lyuks_000 from './000.jpg';
 import m2_lyuks_001 from './001.jpg';
 import m2_lyuks_002 from './002.jpg';

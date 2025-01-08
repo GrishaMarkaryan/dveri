@@ -1,4 +1,4 @@
-import simmetriya from './симметрия.jpg';
+import simmetriya from './Симметрия.jpg';
 import simmetriya_000 from './000.jpg';
 import simmetriya_001 from './001.jpg';
 import simmetriya_002 from './002.jpg';

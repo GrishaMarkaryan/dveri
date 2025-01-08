@@ -1,4 +1,4 @@
-import Dacha from './Дача.jpg';
+import Dacha from './дача.jpg';
 import Dacha_001 from './001.jpg';
 
 export const granit_Dacha = {

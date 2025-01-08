@@ -1,4 +1,4 @@
-import shtorm from './шторм.jpg';
+import shtorm from './Шторм.jpg';
 import shtorm_000 from './000.jpg';
 import shtorm_001 from './001.jpg';
 import shtorm_002 from './002.jpg';

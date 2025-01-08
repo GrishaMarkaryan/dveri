@@ -1,4 +1,4 @@
-import ultra_c4 from './ультра с4.jpg';
+import ultra_c4 from './Ультра С4.jpg';
 import ultra_c4_000 from './000.jpg';
 import ultra_c4_001 from './001.jpg';
 import ultra_c4_002 from './002.jpg';

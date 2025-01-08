@@ -1,4 +1,4 @@
-import c9 from './с9.jpg';
+import c9 from './С9.jpg';
 import c9_000 from './000.jpg';
 import c9_001 from './001.jpg';
 import c9_002 from './002.jpg';

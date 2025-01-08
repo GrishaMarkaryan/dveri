@@ -1,4 +1,4 @@
-import senator from './сенатор.jpg';
+import senator from './Сенатор.jpg';
 import senator_000 from './000.jpg';
 import senator_001 from './001.jpg';
 import senator_002 from './002.jpg';
