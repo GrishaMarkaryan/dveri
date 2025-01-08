@@ -1,16 +1,17 @@
 'use client'
 
 import { useState } from "react";
-import Image from "next/image"
+import Image from "next/image";
 import { RiWhatsappFill } from "react-icons/ri";
+import { Product, ProductType } from "../all-products";
 
 export default function ClientProduct({ product, productGroup }: {
-    product: any;
+    product: Product;
     productGroup: string;
 }) {
 
     const productTypes = product?.types;
-    const [doorType, setDoorType] = useState(productTypes ? productTypes[0] : null)
+    const [doorType, setDoorType] = useState<ProductType | null>(productTypes ? productTypes[0] : null)
 
     return (
         <div>
@@ -57,7 +58,7 @@ export default function ClientProduct({ product, productGroup }: {
                         </div>
                     }
 
-                    {productTypes && (
+                    {productTypes && doorType && doorType.photo && (
                         <div className="h-auto">
                             <Image src={doorType?.photo} alt='productTypesPhoto' className="border-2 bg-stone-200 cursor-zoom-in h-[300px] w-[150px] xl:h-[500px] xl:min-w-[250px]" />
                         </div>

@@ -1,11 +1,6 @@
 import { FaPhoneAlt } from "react-icons/fa";
 
-export default function Contacts({ isMenuOpen, setIsMenuOpen }:
-    {
-        isMenuOpen: any,  // поменять TS тут
-        setIsMenuOpen: any
-    }
-) {
+export default function Contacts() {
     return (
         <div className={`hidden lg:flex lg:flex-row gap-1 lg:gap-3 xl:gap-16 lg:mr-5`}>
             <div className="flex items-center gap-2 lg:text-sm">
