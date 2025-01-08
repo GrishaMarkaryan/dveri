@@ -1,8 +1,8 @@
-import l3_2 from '@/app/_images/mezhkomnatnie/L3/Белый сатин.png';
-import l3_5 from '@/app/_images/mezhkomnatnie/L3/Дуб Французский.jpg';
-import l3_6 from '@/app/_images/mezhkomnatnie/L3/Лиственница кремовая.jpg';
-import l3_7 from '@/app/_images/mezhkomnatnie/L3/Лиственница серая.jpg';
-import l3_8 from '@/app/_images/mezhkomnatnie/L3/Орех Макадамия.jpg';
+import l3_2 from './Белый сатин.png';
+import l3_5 from './Дуб Французский.jpg';
+import l3_6 from './Лиственница кремовая.jpg';
+import l3_7 from './Лиственница серая.jpg';
+import l3_8 from './Орех Макадамия.jpg';
 
 export const l3_data = {
     id: 'l3',

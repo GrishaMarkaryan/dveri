@@ -1,6 +1,6 @@
-import PO_601_1 from '@/app/_images/mezhkomnatnie/601 ПО/Белоснежно матовый.jpg'
-import PO_601_2 from '@/app/_images/mezhkomnatnie/601 ПО/Дуб Серена керамика.jpg'
-import PO_601_3 from '@/app/_images/mezhkomnatnie/601 ПО/Медиум грей.jpg'
+import PO_601_1 from './Белоснежно матовый.jpg'
+import PO_601_2 from './Дуб Серена керамика.jpg'
+import PO_601_3 from './Медиум грей.jpg'
 
 
 export const po_601_data = {

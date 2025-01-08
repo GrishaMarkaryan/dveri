@@ -1,7 +1,7 @@
-import l10_2 from '@/app/_images/mezhkomnatnie/l10/Белый сатин.jpg';
-import l10_5 from '@/app/_images/mezhkomnatnie/l10/Дуб Французский.jpg';
-import l10_8 from '@/app/_images/mezhkomnatnie/l10/Орех Макадамия.jpg';
-import l10_9 from '@/app/_images/mezhkomnatnie/l10/Серый сатин.jpg';
+import l10_2 from './Белый сатин.jpg';
+import l10_5 from './Дуб Французский.jpg';
+import l10_8 from './Орех Макадамия.jpg';
+import l10_9 from './Серый сатин.jpg';
 
 export const l10_data = {
     id: 'l10',

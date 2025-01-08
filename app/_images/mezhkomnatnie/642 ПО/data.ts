@@ -1,7 +1,7 @@
-import PO_642_1 from '@/app/_images/mezhkomnatnie/642 ПО/Белоснежно матовый.jpg';
-import PO_642_3 from '@/app/_images/mezhkomnatnie/642 ПО/Лайт Грей.jpg';
-import PO_642_4 from '@/app/_images/mezhkomnatnie/642 ПО/Магнолия.jpg';
-import PO_642_5 from '@/app/_images/mezhkomnatnie/642 ПО/Медиум грей.jpg';
+import PO_642_1 from './Белоснежно матовый.jpg';
+import PO_642_3 from './Лайт Грей.jpg';
+import PO_642_4 from './Магнолия.jpg';
+import PO_642_5 from './Медиум грей.jpg';
 
 export const po_642_data = {
     id: 'po_642',

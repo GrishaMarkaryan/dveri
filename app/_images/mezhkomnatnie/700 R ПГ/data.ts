@@ -1,4 +1,4 @@
-import PO_700_1 from '@/app/_images/mezhkomnatnie/700 R ПГ/Грунт.jpg'
+import PO_700_1 from './Грунт.jpg'
 
 export const po_700_rpg_data = {
     id: 'po_700_rpg',

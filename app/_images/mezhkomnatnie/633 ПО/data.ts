@@ -1,5 +1,5 @@
-import PO_633_1 from '@/app/_images/mezhkomnatnie/633 ПО/Белоснежно матовый.jpg';
-import PO_633_2 from '@/app/_images/mezhkomnatnie/633 ПО/Шелл Грей.jpg';
+import PO_633_1 from './Белоснежно матовый.jpg';
+import PO_633_2 from './Шелл Грей.jpg';
 
 export const po_633_data = {
     id: 'po_633',

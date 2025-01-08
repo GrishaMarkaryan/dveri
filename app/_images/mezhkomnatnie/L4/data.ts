@@ -1,5 +1,5 @@
-import l4_2 from '@/app/_images/mezhkomnatnie/l4/Белый сатин.jpg';
-import l4_9 from '@/app/_images/mezhkomnatnie/l4/Серый сатин.jpg';
+import l4_2 from './Белый сатин.jpg';
+import l4_9 from './Серый сатин.jpg';
 
 
 export const l4_data = {

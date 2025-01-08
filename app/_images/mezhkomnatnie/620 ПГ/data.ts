@@ -1,4 +1,4 @@
-import PO_620_1 from '@/app/_images/mezhkomnatnie/620 ПГ/Дуб патина золото.jpg'
+import PO_620_1 from './Дуб патина золото.jpg'
 
 export const po_620_data = {
     id: 'po_620',

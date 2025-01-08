@@ -1,4 +1,4 @@
-import l10_al from '@/app/_images/mezhkomnatnie/L10 AL Молдинг/Белый сатин.jpg';
+import l10_al from './Белый сатин.jpg';
 
 export const l10_al_data = {
     id: 'l10_al',

@@ -1,5 +1,5 @@
-import l11_2 from '@/app/_images/mezhkomnatnie/l11/Белый сатин.jpg';
-import l11_9 from '@/app/_images/mezhkomnatnie/l11/Серый сатин.jpg';
+import l11_2 from './Белый сатин.jpg';
+import l11_9 from './Серый сатин.jpg';
 
 export const l11_data = {
     id: 'l11',

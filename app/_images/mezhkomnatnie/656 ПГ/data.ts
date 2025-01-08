@@ -1,8 +1,8 @@
-import PO_656_1 from '@/app/_images/mezhkomnatnie/656 ПГ/Белоснежно матовый.jpg';
-import PO_656_3 from '@/app/_images/mezhkomnatnie/656 ПГ/Дарк Вайт.jpg';
-import PO_656_4 from '@/app/_images/mezhkomnatnie/656 ПГ/Магнолия.jpg';
-import PO_656_5 from '@/app/_images/mezhkomnatnie/656 ПГ/Медиум грей.jpg';
-import PO_656_6 from '@/app/_images/mezhkomnatnie/656 ПГ/Шелл Грей.jpg';
+import PO_656_1 from './Белоснежно матовый.jpg';
+import PO_656_3 from './Дарк Вайт.jpg';
+import PO_656_4 from './Магнолия.jpg';
+import PO_656_5 from './Медиум грей.jpg';
+import PO_656_6 from './Шелл Грей.jpg';
 
 export const po_656_data = {
     id: 'po_656',

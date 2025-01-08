@@ -1,4 +1,4 @@
-import PO_538 from '@/app/_images/mezhkomnatnie/538 ПО/538 ПО.jpg'
+import PO_538 from './538 ПО.jpg'
 
 export const po_538_data = {
     id: 'po_538',
