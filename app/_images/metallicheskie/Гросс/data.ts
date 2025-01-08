@@ -1,5 +1,5 @@
-import gross from '@/app/_images/metallicheskie/Гросс/Гросс.jpg';
-import gross_001 from '@/app/_images/metallicheskie/Гросс/001.jpg';
+import gross from './гросс.jpg';
+import gross_001 from './001.jpg';
 
 export const granit_gross = {
     id: 'granit_gross', 
