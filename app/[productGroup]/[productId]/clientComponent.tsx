@@ -74,7 +74,7 @@ export default function ClientProduct({ product, productGroup }: {
                     }
 
                     <div className="flex flex-row  xl:justify-left flex-wrap gap-6">
-                        {productTypes && productTypes.map((item: any) =>
+                        {productTypes && productTypes.map((item) =>
                             <div key={item.type} className="flex" onClick={() => setDoorType(item)}>
                                 <div className="flex flex-col items-center w-fit cursor-pointer">
                                     <div className="flex gap-1">
