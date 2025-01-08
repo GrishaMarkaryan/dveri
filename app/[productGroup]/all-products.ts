@@ -1,7 +1,6 @@
 import { StaticImageData } from 'next/image';
 import { metallicheskie } from './metallicheskie';
 import { mezhkomnatnie } from './mezhkomnatnie';
-import { StaticImport } from 'next/dist/shared/lib/get-img-props';
 
 export interface ProductType {
   photo: StaticImageData; // исправить тут any
