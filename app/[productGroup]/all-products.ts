@@ -1,9 +1,10 @@
 import { StaticImageData } from 'next/image';
 import { metallicheskie } from './metallicheskie';
 import { mezhkomnatnie } from './mezhkomnatnie';
+import { StaticImport } from 'next/dist/shared/lib/get-img-props';
 
-interface ProductType {
-  photo: StaticImageData | any; // исправить тут any
+export interface ProductType {
+  photo: StaticImageData; // исправить тут any
   type: string;
   color?: string;
   size?: string;

@@ -19,8 +19,8 @@ export default function Header() {
     const menuListRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
-        let handler = (e: any) => {
-            if (!menuIconRef.current?.contains(e.target) && !menuListRef.current?.contains(e.target)) {
+        const handler = (e: MouseEvent) => { //  тут any был, я убрал
+            if (!menuIconRef.current?.contains(e.target as Node) && !menuListRef.current?.contains(e.target as Node)) {
                 setIsMenuOpen(false);
             }
         }
@@ -53,7 +53,7 @@ export default function Header() {
                     <Link href={'/delivery'} onClick={() => setIsMenuOpen(false)} > <div className='transition-all ease-linear hover:translate-y-[2px] hover:text-gray-300'> Доставка и монтаж </div> </Link>
                     <Link href={'/contacts'} onClick={() => setIsMenuOpen(false)}> <div className='transition-all ease-linear hover:translate-y-[2px] hover:text-gray-300'> Контакты </div> </Link>
                 </div>
-                <Contacts isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
+                <Contacts />
             </div>
             <div className="h-[66px] lg:h-24"></div>
         </div>
