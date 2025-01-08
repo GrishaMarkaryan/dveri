@@ -1,4 +1,4 @@
-import lira from './лира.jpg';
+import lira from './Лира.jpg';
 import lira_000 from './000.jpg';
 import lira_001 from './001.jpg';
 import lira_002 from './002.jpg';

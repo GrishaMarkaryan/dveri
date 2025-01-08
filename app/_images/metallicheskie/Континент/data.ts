@@ -1,4 +1,4 @@
-import kontinent from './континент.jpg';
+import kontinent from './Континент.jpg';
 import kontinent_000 from './000.jpg';
 import kontinent_001 from './001.jpg';
 import kontinent_002 from './002.jpg';

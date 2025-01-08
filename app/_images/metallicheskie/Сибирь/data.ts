@@ -1,4 +1,4 @@
-import sibir from './сибирь.jpg';
+import sibir from './Сибирь.jpg';
 import sibir_000 from './000.jpg';
 import sibir_001 from './001.jpg';
 import sibir_002 from './002.jpg';

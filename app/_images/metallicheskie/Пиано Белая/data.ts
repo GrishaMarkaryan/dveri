@@ -1,4 +1,4 @@
-import piano_belaya from './пиано белая.jpg';
+import piano_belaya from './Пиано Белая.jpg';
 import piano_belaya_000 from './000.jpg';
 import piano_belaya_001 from './001.jpg';
 import piano_belaya_002 from './002.jpg';
