@@ -1,8 +1,8 @@
-import PO_630_1 from '@/app/_images/mezhkomnatnie/630 ПГ/Дуб винчестер светлый.jpg';
-import PO_630_2 from '@/app/_images/mezhkomnatnie/630 ПГ/Дуб винчестер серый.jpg';
-import PO_630_3 from '@/app/_images/mezhkomnatnie/630 ПГ/Дуб винчестер трюфель.jpg';
-import PO_630_4 from '@/app/_images/mezhkomnatnie/630 ПГ/Дуб патина золото.jpg';
-import PO_630_5 from '@/app/_images/mezhkomnatnie/630 ПГ/Дуб Серена светло-серый.jpg';
+import PO_630_1 from './Дуб винчестер светлый.jpg';
+import PO_630_2 from './Дуб винчестер серый.jpg';
+import PO_630_3 from './Дуб винчестер трюфель.jpg';
+import PO_630_4 from './Дуб патина золото.jpg';
+import PO_630_5 from './Дуб Серена светло-серый.jpg';
 
 export const po_630_data = {
     id: 'po_630',

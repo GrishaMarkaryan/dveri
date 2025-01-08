@@ -1,6 +1,6 @@
-import PO_660_2 from '@/app/_images/mezhkomnatnie/660 ПГ/Дарк Вайт.jpg';
-import PO_660_4 from '@/app/_images/mezhkomnatnie/660 ПГ/Магнолия.jpg';
-import PO_660_6 from '@/app/_images/mezhkomnatnie/660 ПГ/Шелл Грей.jpg';
+import PO_660_2 from './Дарк Вайт.jpg';
+import PO_660_4 from './Магнолия.jpg';
+import PO_660_6 from './Шелл Грей.jpg';
 
 export const po_660_data = {
     id: 'po_660',

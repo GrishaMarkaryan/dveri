@@ -1,4 +1,4 @@
-import l16_2 from '@/app/_images/mezhkomnatnie/l16/Дуб винчестер светлый.jpg';
+import l16_2 from './Дуб винчестер светлый.jpg';
 
 export const l16_data = {
     id: 'l16',

@@ -1,4 +1,4 @@
-import PO_651_1 from '@/app/_images/mezhkomnatnie/651 ПО/Белоснежно матовый.jpg'
+import PO_651_1 from './Белоснежно матовый.jpg'
 
 export const po_651_data = {
     id: 'po_651',

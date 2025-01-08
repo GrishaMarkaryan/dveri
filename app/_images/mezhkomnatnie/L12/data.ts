@@ -1,4 +1,4 @@
-import l12_2 from '@/app/_images/mezhkomnatnie/l12/Белый сатин.jpg';
+import l12_2 from './Белый сатин.jpg';
 
 export const l12_data = {
     id: 'l12',

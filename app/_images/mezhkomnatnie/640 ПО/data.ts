@@ -1,8 +1,8 @@
-import PO_640_1 from '@/app/_images/mezhkomnatnie/640 ПО/Белоснежно матовый.jpg';
-import PO_640_3 from '@/app/_images/mezhkomnatnie/640 ПО/Лайт Грей.jpg';
-import PO_640_4 from '@/app/_images/mezhkomnatnie/640 ПО/Магнолия.jpg';
-import PO_640_5 from '@/app/_images/mezhkomnatnie/640 ПО/Медиум грей.jpg';
-import PO_640_6 from '@/app/_images/mezhkomnatnie/640 ПО/Шелл Грей.jpg';
+import PO_640_1 from './Белоснежно матовый.jpg';
+import PO_640_3 from './Лайт Грей.jpg';
+import PO_640_4 from './Магнолия.jpg';
+import PO_640_5 from './Медиум грей.jpg';
+import PO_640_6 from './Шелл Грей.jpg';
 
 export const po_640_data = {
     id: 'po_640',

@@ -1,4 +1,4 @@
-import l20_2 from '@/app/_images/mezhkomnatnie/L20 без врезки ABS BLACK/Дуб винчестер трюфель.jpg';
+import l20_2 from './Дуб винчестер трюфель.jpg';
 
 export const l20_data = {
     id: 'l20',

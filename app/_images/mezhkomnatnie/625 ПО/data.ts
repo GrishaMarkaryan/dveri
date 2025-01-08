@@ -1,10 +1,10 @@
-import PO_625_1 from '@/app/_images/mezhkomnatnie/625 ПО/Белоснежно матовый.jpg';
-import PO_625_2 from '@/app/_images/mezhkomnatnie/625 ПО/Дуб винчестер светлый.jpg';
-import PO_625_3 from '@/app/_images/mezhkomnatnie/625 ПО/Дуб винчестер серый.jpg';
-import PO_625_4 from '@/app/_images/mezhkomnatnie/625 ПО/Дуб винчестер трюфель.jpg';
-import PO_625_5 from '@/app/_images/mezhkomnatnie/625 ПО/Лайт Грей.jpg';
-import PO_625_6 from '@/app/_images/mezhkomnatnie/625 ПО/Магнолия.jpg';
-import PO_625_7 from '@/app/_images/mezhkomnatnie/625 ПО/Шелл Грей.jpg';
+import PO_625_1 from './Белоснежно матовый.jpg';
+import PO_625_2 from './Дуб винчестер светлый.jpg';
+import PO_625_3 from './Дуб винчестер серый.jpg';
+import PO_625_4 from './Дуб винчестер трюфель.jpg';
+import PO_625_5 from './Лайт Грей.jpg';
+import PO_625_6 from './Магнолия.jpg';
+import PO_625_7 from './Шелл Грей.jpg';
 
 export const po_625_data = {
     id: 'po_625',
