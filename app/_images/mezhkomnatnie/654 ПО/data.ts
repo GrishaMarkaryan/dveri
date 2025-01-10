@@ -14,27 +14,32 @@ export const po_654_data = {
         {
             photo: PO_654_1,   
             type: 'Белоснежно-матовый',
-            price: 'от 10 654 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
         {
             photo: PO_654_2,   
             type: 'Дарк Вайт',
-            price: 'от 10 654 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
         {
             photo: PO_654_3,   
             type: 'Лайт Грей',
-            price: 'от 10 654 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
         {
             photo: PO_654_4,   
             type: 'Медиум грей',
-            price: 'от 10 654 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
         {
             photo: PO_654_5,   
             type: 'Шелл Грей',
-            price: 'от 10 654 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
     
     ]

@@ -10,7 +10,8 @@ export const l20_data = {
         {
             photo: l20_2,   
             type: 'Дуб Винчестер Трюфель',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
     ]
 }

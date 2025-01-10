@@ -34,7 +34,20 @@ export default function ClientProduct({ product, productGroup }: {
                         </div>
                     </div>
 
-                    <div className="flex justify-center text-3xl font-semibold pt-6">  {doorType?.price} </div>
+                    {productGroup === 'metallicheskie' ?
+                        <div className="flex justify-center text-3xl font-semibold pt-6">  {doorType?.price} </div>
+                        :
+                        <div className="flex flex-col m-auto" >
+                            <div className="flex items-center text-xl md:text-3xl font-semibold gap-2">
+                                <div className="text-base xl:text-xl font-medium">Цена полотно:</div>
+                                <div>{doorType?.price}</div>
+                            </div>
+                            <div className="flex items-center text-xl md:text-3xl font-semibold gap-2">
+                                <div className="text-base xl:text-xl font-medium">Цена комплект:</div>
+                                <div>{doorType?.price_komplekt}</div>
+                            </div>
+                        </div>
+                    }
 
                     <div className="flex flex-col justify-center items-center text-xl font-bold ">
                         <a href="https://wa.me/79653949482" target="blank" className="flex justify-center gap-5 border-2  px-20 py-3 rounded-xl md:mt-3 transition-all hover:bg-green-400  bg-green-500 text-white">
@@ -78,7 +91,7 @@ export default function ClientProduct({ product, productGroup }: {
                             <div key={item.type} className="flex" onClick={() => setDoorType(item)}>
                                 <div className="flex flex-col items-center w-fit cursor-pointer">
                                     <div className="flex gap-1">
-                                        <div> {item.type}</div>
+                                        <div className="text-xs md:text-base"> {item.type}</div>
                                         {productGroup === 'metallicheskie' &&
                                             <div className="font-semibold text-sm"> ({item.size})</div>
                                         }
@@ -86,7 +99,7 @@ export default function ClientProduct({ product, productGroup }: {
                                     {productGroup === 'metallicheskie' ?
                                         <Image src={item.photo} alt='productTypesPhoto' className="border-2 bg-stone-200" height={200} />
                                         :
-                                        <Image src={item.photo} alt='productTypesPhoto' className="border-2 bg-stone-200" height={400} />
+                                        <Image src={item.photo} alt='productTypesPhoto' className="border-2 bg-stone-200" height={300} />
                                     }
                                 </div>
                             </div>

@@ -10,7 +10,8 @@ export const po_700_pg_data = {
         {
             photo: PO_700_1,   
             type: 'Грунт',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
     ]
 }

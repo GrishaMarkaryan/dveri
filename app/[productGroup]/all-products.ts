@@ -3,11 +3,12 @@ import { metallicheskie } from './metallicheskie';
 import { mezhkomnatnie } from './mezhkomnatnie';
 
 export interface ProductType {
-  photo: StaticImageData; // исправить тут any
+  photo: StaticImageData;
   type: string;
   color?: string;
   size?: string;
   price: string;
+  price_komplekt?: string;
 }
 
 export interface Product {
