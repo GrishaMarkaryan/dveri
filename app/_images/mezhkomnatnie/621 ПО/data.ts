@@ -10,7 +10,8 @@ export const po_621_data = {
         {
             photo: PO_621_1,   
             type: 'Дуб Патина Золото',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
     ]
 }

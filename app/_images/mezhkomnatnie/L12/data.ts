@@ -10,7 +10,8 @@ export const l12_data = {
         {
             photo: l12_2,   
             type: 'Белый сатин',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
     ]
 }

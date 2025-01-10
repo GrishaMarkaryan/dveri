@@ -12,12 +12,14 @@ export const l4_data = {
         {
             photo: l4_2,   
             type: 'Белый сатин',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
         {
             photo: l4_9,   
             type: 'Серый Сатин',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
     ]
 }

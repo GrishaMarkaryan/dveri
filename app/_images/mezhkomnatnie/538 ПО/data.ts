@@ -5,12 +5,13 @@ export const po_538_data = {
     URL: '/mezhkomnatnie/po_538',
     name: '538 ПО',
     photo: PO_538,
-    price: 'от 10 640 ₽',
+    price: 'от 10 090 ₽',
     types: [
         {
         photo: PO_538,   
         type: 'Шелл Грей',
-        price: 'от 10 640 ₽',
+        price: '10 090 ₽',
+        price_komplekt: '16 250 ₽',
         },
     ]
 }

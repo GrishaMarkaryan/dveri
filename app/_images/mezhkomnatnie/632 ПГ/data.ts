@@ -14,27 +14,32 @@ export const po_632_data = {
         {
             photo: PO_632_1,   
             type: 'Белоснежно-матовый',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
         {
             photo: PO_632_2,   
             type: 'Дарк Вайт',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
         {
             photo: PO_632_3,   
             type: 'Лайт Грей',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
         {
             photo: PO_632_4,   
             type: 'Магнолия',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
         {
             photo: PO_632_5,   
             type: 'Шелл Грей',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
     
     ]

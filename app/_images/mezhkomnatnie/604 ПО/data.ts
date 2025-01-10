@@ -10,7 +10,8 @@ export const po_604_data = {
         {
             photo: PO_604_1,   
             type: 'Белоснежно-матовый',
-            price: 'от 10 640 ₽',
-        },
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
+                },
     ]
 }

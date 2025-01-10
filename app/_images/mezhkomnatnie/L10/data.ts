@@ -13,22 +13,26 @@ export const l10_data = {
         {
             photo: l10_2,   
             type: 'Белый сатин',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
         {
             photo: l10_5,   
             type: 'Дуб Французский',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
         {
             photo: l10_8,   
             type: 'Орех Макадамия',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
         {
             photo: l10_9,   
             type: 'Серый Сатин',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
     ]
 }

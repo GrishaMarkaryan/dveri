@@ -16,37 +16,44 @@ export const po_625_data = {
         {
             photo: PO_625_1,   
             type: 'Белоснежно-матовый',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
         {
             photo: PO_625_2,   
             type: 'Дуб винчестер светлый',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
         {
             photo: PO_625_3,   
             type: 'Дуб винчестер серый',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
         {
             photo: PO_625_4,   
             type: 'Дуб винчестер трюфель',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
         {
             photo: PO_625_5,   
             type: 'Лайт Грей',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
         {
             photo: PO_625_6,   
             type: 'Магнолия',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
         {
             photo: PO_625_7,   
             type: 'Шелл Грей',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
     ]
 }

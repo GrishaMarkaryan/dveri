@@ -8,22 +8,25 @@ export const po_601_data = {
     URL: '/mezhkomnatnie/po_601',
     name: '601 ПО',
     photo: PO_601_2,
-    price: 'от 10 640 ₽',
+    price: 'от 9 140 ₽',
     types: [
         {
             photo: PO_601_1,   
             type: 'Белоснежно-матовый',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
         {
             photo: PO_601_2,   
             type: 'Дуб Серена Керамика',
-            price: 'от 10 640 ₽',
+            price: '9 140 ₽',
+            price_komplekt: '14 750 ₽'
         },
         {
             photo: PO_601_3,   
             type: 'Медиум Грей',
-            price: 'от 10 640 ₽',
+             price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
     ]
 }

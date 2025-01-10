@@ -12,17 +12,20 @@ export const po_608_data = {
         {
             photo: PO_608_1,   
             type: 'Белоснежно-матовый',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
         {
             photo: PO_608_2,   
             type: 'Дуб Серена Керамика',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
         {
             photo: PO_608_3,   
             type: 'Шелл Грей',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
     ]
 }

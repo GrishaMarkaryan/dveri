@@ -11,12 +11,14 @@ export const po_633_data = {
         {
             photo: PO_633_1,   
             type: 'Белоснежно-матовый',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
         {
             photo: PO_633_2,   
             type: 'Шелл Грей',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
     
     ]

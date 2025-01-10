@@ -10,7 +10,8 @@ export const l16_data = {
         {
             photo: l16_2,   
             type: 'Дуб Винчестер Светлый',
-            price: 'от 10 640 ₽',
+            price: '10 250 ₽',
+            price_komplekt: '16 410 ₽'
         },
     ]
 }
