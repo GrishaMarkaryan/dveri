@@ -42,6 +42,10 @@ import { l12_data } from '../_images/mezhkomnatnie/L12/data';
 import { l15_data } from '../_images/mezhkomnatnie/L15/data';
 import { l16_data } from '../_images/mezhkomnatnie/L16/data';
 import { l20_data } from '../_images/mezhkomnatnie/L20 без врезки ABS BLACK/data';
+import { DR_Garmoniya } from '../_images/mezhkomnatnie/DR_Гармония/data';
+import { DR_London2 } from '../_images/mezhkomnatnie/DR_Лондон2/data';
+import { DR_Premyer } from '../_images/mezhkomnatnie/DR_Премьер/data';
+import { DR_Foborg } from '../_images/mezhkomnatnie/DR_Фоборг/data';
 
 import { Product } from './all-products';
 
@@ -90,4 +94,8 @@ export const mezhkomnatnie:Product[] = [
     l15_data,
     l16_data,
     l20_data,
+    DR_Garmoniya,
+    DR_London2,
+    DR_Premyer,
+    DR_Foborg,
 ]

@@ -12,6 +12,6 @@ export const po_604_data = {
             type: 'Белоснежно-матовый',
             price: '10 250 ₽',
             price_komplekt: '16 410 ₽'
-                },
+        },
     ]
 }
