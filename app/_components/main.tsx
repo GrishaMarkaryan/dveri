@@ -17,12 +17,12 @@ export default function Main() {
                     alt="mainImage"
                     layout="fill"
                     className="w-full object-cover absolute z-0" />
-                <div className="text-white px-[10%] text-[30px] md:text-[45px] lg:text-[50px] bg-gray-600 bg-opacity-50 absolute z-5"> МЕТАЛЛИЧЕСКИЕ И МЕЖКОМНАТНЫЕ ДВЕРИ В Г. СЕРГИЕВ ПОСАД<span className="text-black font-medium"></span></div>
+                <div className="text-white px-[10%] text-[25px] md:text-[40px] lg:text-[45px] bg-gray-600 bg-opacity-50 absolute z-5"> МЕТАЛЛИЧЕСКИЕ И МЕЖКОМНАТНЫЕ ДВЕРИ В Г. СЕРГИЕВ ПОСАД<span className="text-black font-medium"></span></div>
             </div>
 
             <Production />
 
-            <div className="flex flex-col md:flex-row justify-center items-center gap-3 md:gap-10 text-xl md:text-2xl md:p-10 mb-10">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-3 md:gap-10 text-lg md:text-xl md:p-10 mb-10">
                 <div className="flex flex-col justify-center items-center">
                     <AiFillLike size={70} />
                     <div className="p-10"> Более 15 лет на рынке </div>
@@ -38,8 +38,8 @@ export default function Main() {
             </div>
 
             <div className="flex flex-col items-center justify-center text-white bg-stone-500 py-9">
-                <div className="text-xl md:text-3xl font-bold"> Сомневаетесь в выборе двери? </div>
-                <div className="flex flex-col items-center justify-center text-base md:text-xl font-medium py-6">
+                <div className="text-lg md:text-2xl font-bold"> Сомневаетесь в выборе двери? </div>
+                <div className="flex flex-col items-center justify-center text-base md:text-lg font-medium py-6">
                     <div className="flex flex-col gap-1 md:flex-row">
                         <div> Свяжитесь с нами и мы расскажем об </div>
                         <div> особенностях каждого варианта, чтобы </div>
