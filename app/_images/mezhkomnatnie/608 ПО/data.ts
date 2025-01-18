@@ -7,7 +7,7 @@ export const po_608_data = {
     URL: '/mezhkomnatnie/po_608',
     name: '608 ПО',
     photo: PO_608_3,
-    price: 'от 10 640 ₽',
+    price: 'от 9 140 ₽',
     types: [
         {
             photo: PO_608_1,   
@@ -17,9 +17,9 @@ export const po_608_data = {
         },
         {
             photo: PO_608_2,   
-            type: 'Дуб Серена Керамика',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            type: 'Дуб винчестер трюфель',
+            price: '9 140 ₽',
+            price_komplekt: '14 750 ₽'
         },
         {
             photo: PO_608_3,   

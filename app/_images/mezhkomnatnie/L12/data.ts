@@ -5,13 +5,13 @@ export const l12_data = {
     URL: '/mezhkomnatnie/l12',
     name: 'L12',
     photo: l12_2,
-    price: 'от 10 640 ₽',
+    price: 'от 5 720 ₽',
     types: [
         {
             photo: l12_2,   
             type: 'Белый сатин',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '5 720 ₽',
+            price_komplekt: '9 295 ₽'
         },
     ]
 }

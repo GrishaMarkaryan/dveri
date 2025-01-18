@@ -6,19 +6,19 @@ export const l15_data = {
     URL: '/mezhkomnatnie/l15',
     name: 'L15',
     photo: l15_2,
-    price: 'от 10 640 ₽',
+    price: 'от 7 000 ₽',
     types: [
         {
             photo: l15_2,   
             type: 'Белый сатин',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '7 000 ₽',
+            price_komplekt: '10 575 ₽'
         },
         {
             photo: l15_9,   
             type: 'Серый Сатин',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '7 000 ₽',
+            price_komplekt: '10 575 ₽'
         },
     ]
 }

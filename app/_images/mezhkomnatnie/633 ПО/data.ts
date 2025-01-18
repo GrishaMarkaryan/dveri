@@ -6,19 +6,19 @@ export const po_633_data = {
     URL: '/mezhkomnatnie/po_633',
     name: '633 ПО',
     photo: PO_633_2,
-    price: 'от 10 640 ₽',
+    price: 'от 12 570 ₽',
     types: [
         {
             photo: PO_633_1,   
             type: 'Белоснежно-матовый',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '12 570 ₽',
+            price_komplekt: '18 730 ₽'
         },
         {
             photo: PO_633_2,   
             type: 'Шелл Грей',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '12 570 ₽',
+            price_komplekt: '18 730 ₽'
         },
     
     ]

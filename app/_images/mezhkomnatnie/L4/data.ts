@@ -7,19 +7,19 @@ export const l4_data = {
     URL: '/mezhkomnatnie/l4',
     name: 'L4',
     photo: l4_2,
-    price: 'от 10 640 ₽',
+    price: 'от 5 530 ₽',
     types: [
         {
             photo: l4_2,   
             type: 'Белый сатин',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '5 530 ₽',
+            price_komplekt: '9 105 ₽'
         },
         {
             photo: l4_9,   
             type: 'Серый Сатин',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '5 530 ₽',
+            price_komplekt: '9 105 ₽'
         },
     ]
 }

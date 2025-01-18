@@ -9,37 +9,37 @@ export const po_632_data = {
     URL: '/mezhkomnatnie/po_632',
     name: '632 ПГ',
     photo: PO_632_1,
-    price: 'от 10 640 ₽',
+    price: 'от 12 570 ₽',
     types: [
         {
             photo: PO_632_1,   
             type: 'Белоснежно-матовый',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '12 570 ₽',
+            price_komplekt: '18 730 ₽'
         },
         {
             photo: PO_632_2,   
             type: 'Дарк Вайт',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '12 570 ₽',
+            price_komplekt: '18 730 ₽'
         },
         {
             photo: PO_632_3,   
             type: 'Лайт Грей',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '12 570 ₽',
+            price_komplekt: '18 730 ₽'
         },
         {
             photo: PO_632_4,   
             type: 'Магнолия',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '12 570 ₽',
+            price_komplekt: '18 730 ₽'
         },
         {
             photo: PO_632_5,   
             type: 'Шелл Грей',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '12 570 ₽',
+            price_komplekt: '18 730 ₽'
         },
     
     ]

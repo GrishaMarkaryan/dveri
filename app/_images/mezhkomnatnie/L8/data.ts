@@ -9,37 +9,37 @@ export const l8_data = {
     URL: '/mezhkomnatnie/l8',
     name: 'L8',
     photo: l8_5,
-    price: 'от 10 640 ₽',
+    price: 'от 5 640 ₽',
     types: [
         {
             photo: l8_2,   
             type: 'Белый сатин',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '6 960 ₽',
+            price_komplekt: '10 535 ₽'
         },
         {
             photo: l8_5,   
             type: 'Дуб Французский',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '5 640 ₽',
+            price_komplekt: '8 740 ₽'
         },
         {
             photo: l8_6,   
             type: 'Лиственница Кремовая',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '5 640 ₽',
+            price_komplekt: '8 740 ₽'
         },
         {
             photo: l8_7,   
             type: 'Лиственница Серая',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '5 640 ₽',
+            price_komplekt: '8 740 ₽'
         },
         {
             photo: l8_8,   
             type: 'Орех Макадамия',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '5 640 ₽',
+            price_komplekt: '8 740 ₽'
         },
     ]
 }

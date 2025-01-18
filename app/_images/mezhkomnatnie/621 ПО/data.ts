@@ -5,13 +5,13 @@ export const po_621_data = {
     URL: '/mezhkomnatnie/po_621',
     name: '621 ПО',
     photo: PO_621_1,
-    price: 'от 10 640 ₽',
+    price: 'от 13 540 ₽',
     types: [
         {
             photo: PO_621_1,   
             type: 'Дуб Патина Золото',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '13 540 ₽',
+            price_komplekt: '19 150 ₽'
         },
     ]
 }

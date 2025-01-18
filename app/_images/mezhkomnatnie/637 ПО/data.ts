@@ -8,31 +8,31 @@ export const po_637_data = {
     URL: '/mezhkomnatnie/po_637',
     name: '637 ПО',
     photo: PO_637_3,
-    price: 'от 10 640 ₽',
+    price: 'от 12 090 ₽',
     types: [
         {
             photo: PO_637_1,   
             type: 'Белоснежно-матовый',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '12 090 ₽',
+            price_komplekt: '18 250 ₽'
         },
         {
             photo: PO_637_2,   
             type: 'Лайт Грей',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '12 090 ₽',
+            price_komplekt: '18 250 ₽'
         },
         {
             photo: PO_637_3,   
             type: 'Магнолия',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '12 090 ₽',
+            price_komplekt: '18 250 ₽'
         },
         {
             photo: PO_637_4,   
             type: 'Шелл Грей',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '12 090 ₽',
+            price_komplekt: '18 250 ₽'
         },
     
     ]

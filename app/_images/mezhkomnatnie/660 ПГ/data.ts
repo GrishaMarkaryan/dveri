@@ -7,25 +7,25 @@ export const po_660_data = {
     URL: '/mezhkomnatnie/po_660',
     name: '660 ПГ',
     photo: PO_660_4,
-    price: 'от 10 640 ₽',
+    price: 'от 13 210 ₽',
     types: [
         {
             photo: PO_660_2,   
             type: 'Дарк Вайт',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '13 210 ₽',
+            price_komplekt: '19 370 ₽'
         },
         {
             photo: PO_660_4,   
             type: 'Магнолия',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '13 210 ₽',
+            price_komplekt: '19 370 ₽'
         },
         {
             photo: PO_660_6,   
             type: 'Шелл Грей',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '13 210 ₽',
+            price_komplekt: '19 370 ₽'
         },
     
     ]

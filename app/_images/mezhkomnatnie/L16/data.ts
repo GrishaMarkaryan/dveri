@@ -5,13 +5,13 @@ export const l16_data = {
     URL: '/mezhkomnatnie/l16',
     name: 'L16',
     photo: l16_2,
-    price: 'от 10 640 ₽',
+    price: 'от 4 820 ₽',
     types: [
         {
             photo: l16_2,   
             type: 'Дуб Винчестер Светлый',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '4 820 ₽',
+            price_komplekt: '8 220 ₽'
         },
     ]
 }

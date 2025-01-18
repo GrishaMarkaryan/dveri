@@ -5,13 +5,13 @@ export const l10_al_data = {
     URL: '/mezhkomnatnie/l10_al',
     name: 'L10 AL Молдинг',
     photo: l10_al,
-    price: 'от 10 640 ₽',
+    price: 'от 10 960 ₽',
     types: [
         {
             photo: l10_al,   
             type: 'Белый сатин',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '10 960 ₽',
+            price_komplekt: '14 535 ₽'
         },
     ]
 }

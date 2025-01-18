@@ -10,43 +10,43 @@ export const po_634_data = {
     URL: '/mezhkomnatnie/po_634',
     name: '634 ПО',
     photo: PO_634_5,
-    price: 'от 10 640 ₽',
+    price: 'от 9 730 ₽',
     types: [
         {
             photo: PO_634_1,   
             type: 'Белоснежно-матовый',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '9 730 ₽',
+            price_komplekt: '15 890 ₽'
         },
         {
             photo: PO_634_2,   
             type: 'Дарк Вайт',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '9 730 ₽',
+            price_komplekt: '15 890 ₽'
         },
         {
             photo: PO_634_3,   
             type: 'Лайт Грей',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '9 730 ₽',
+            price_komplekt: '15 890 ₽'
         },
         {
             photo: PO_634_4,   
             type: 'Магнолия',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '9 730 ₽',
+            price_komplekt: '15 890 ₽'
         },
         {
             photo: PO_634_5,   
             type: 'Медиум грей',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '9 730 ₽',
+            price_komplekt: '15 890 ₽'
         },
         {
             photo: PO_634_6,   
             type: 'Шелл Грей',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '9 730 ₽',
+            price_komplekt: '15 890 ₽'
         },
     
     ]

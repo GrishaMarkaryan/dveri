@@ -5,13 +5,13 @@ export const po_652_data = {
     URL: '/mezhkomnatnie/po_652',
     name: '652 ПО',
     photo: PO_652_1,
-    price: 'от 10 640 ₽',
+    price: 'от 15 840 ₽',
     types: [
         {
             photo: PO_652_1,   
             type: 'Белоснежно матовый',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '15 840 ₽',
+            price_komplekt: '22 000 ₽'
         },
     ]
 }
