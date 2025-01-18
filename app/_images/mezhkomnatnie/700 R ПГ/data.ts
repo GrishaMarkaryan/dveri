@@ -5,13 +5,13 @@ export const po_700_rpg_data = {
     URL: '/mezhkomnatnie/po_700_rpg',
     name: '700 R ПГ',
     photo: PO_700_1,
-    price: 'от 10 640 ₽',
+    price: 'от 11 960 ₽',
     types: [
         {
             photo: PO_700_1,   
             type: 'Грунт',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '11 960 ₽',
+            price_komplekt: '30 320 ₽'
         },
     ]
 }

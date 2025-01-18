@@ -10,43 +10,43 @@ export const po_639_data = {
     URL: '/mezhkomnatnie/po_639',
     name: '639 ПО',
     photo: PO_639_6,
-    price: 'от 10 640 ₽',
+    price: 'от 9 290 ₽',
     types: [
         {
             photo: PO_639_1,   
             type: 'Белоснежно-матовый',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '9 290 ₽',
+            price_komplekt: '15 450 ₽'
         },
         {
             photo: PO_639_2,   
             type: 'Дарк Вайт',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '9 290 ₽',
+            price_komplekt: '15 450 ₽'
         },
         {
             photo: PO_639_3,   
             type: 'Лайт Грей',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '9 290 ₽',
+            price_komplekt: '15 450 ₽'
         },
         {
             photo: PO_639_4,   
             type: 'Магнолия',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '9 290 ₽',
+            price_komplekt: '15 450 ₽'
         },
         {
             photo: PO_639_5,   
             type: 'Медиум грей',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '9 290 ₽',
+            price_komplekt: '15 450 ₽'
         },
         {
             photo: PO_639_6,   
             type: 'Шелл Грей',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '9 290 ₽',
+            price_komplekt: '15 450 ₽'
         },
     
     ]

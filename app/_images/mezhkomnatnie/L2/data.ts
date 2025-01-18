@@ -14,61 +14,61 @@ export const l2_data = {
     URL: '/mezhkomnatnie/l2',
     name: 'L2',
     photo: l2_7,
-    price: 'от 10 640 ₽',
+    price: 'от 3 230 ₽',
     types: [
         {
             photo: l2_1,   
             type: 'Белая мелинга',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '3 230 ₽',
+            price_komplekt: '6 330 ₽'
         },
         {
             photo: l2_2,   
             type: 'Белый сатин',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '5 590 ₽',
+            price_komplekt: '9 165 ₽'
         },
         {
             photo: l2_3,   
             type: 'Белый снежный',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '3 230 ₽',
+            price_komplekt: '6 330 ₽'
         },
         {
             photo: l2_4,   
             type: 'Дуб Капучино',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '3 230 ₽',
+            price_komplekt: '6 330 ₽'
         },
         {
             photo: l2_5,   
             type: 'Дуб Французский',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '3 230 ₽',
+            price_komplekt: '6 330 ₽'
         },
         {
             photo: l2_6,   
             type: 'Лиственница Кремовая',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '3 230 ₽',
+            price_komplekt: '6 330 ₽'
         },
         {
             photo: l2_7,   
             type: 'Лиственница Серая',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '3 230 ₽',
+            price_komplekt: '6 330 ₽'
         },
         {
             photo: l2_8,   
             type: 'Орех Макадамия',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '3 230 ₽',
+            price_komplekt: '6 330 ₽'
         },
         {
             photo: l2_9,   
             type: 'Серый Сатин',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '5 590 ₽',
+            price_komplekt: '9 165 ₽'
         },
     ]
 }

@@ -41,13 +41,13 @@ export default function Header() {
                     </div>
                     <Link href={'/'} className="flex ml-4 lg:ml-12 p-3 gap-2 items-center transition-all ease-linear hover:text-gray-300">
                         <Image src={icon} alt="icon" height={42} />
-                        <div className="flex font-bold text-2xl "> ДВЕРНАЯ ЯРМАРКА </div>
+                        <div className="flex font-bold text-xl "> ДВЕРНАЯ ЯРМАРКА </div>
                     </Link>
                 </div>
 
                 <div
                     ref={menuListRef}
-                    className={`flex lg:flex ${isMenuOpen ? 'flex-col ' : 'hidden h-0'} gap-2 items-center xl:gap-12 text-xl lg:text-base xl:text-xl pb-7 lg:pb-0`}
+                    className={`flex lg:flex ${isMenuOpen ? 'flex-col ' : 'hidden h-0'} gap-2 items-center xl:gap-12 text-lg lg:text-base xl:text-lg pb-7 lg:pb-0`}
                 >
                     <Link href={'/our-products'} onClick={() => setIsMenuOpen(false)}> <div className='transition-all ease-linear hover:translate-y-[2px] hover:text-gray-300'> Каталог </div></Link>
                     <Link href={'/delivery'} onClick={() => setIsMenuOpen(false)} > <div className='transition-all ease-linear hover:translate-y-[2px] hover:text-gray-300'> Доставка и монтаж </div> </Link>

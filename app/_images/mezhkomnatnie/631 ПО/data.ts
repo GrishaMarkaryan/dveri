@@ -9,37 +9,37 @@ export const po_631_data = {
     URL: '/mezhkomnatnie/po_631',
     name: '631 ПО',
     photo: PO_631_1,
-    price: 'от 10 640 ₽',
+    price: 'от 11 010 ₽',
     types: [
         {
             photo: PO_631_1,   
             type: 'Дуб винчестер светлый',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '12 890 ₽',
+            price_komplekt: '18 500 ₽'
         },
         {
             photo: PO_631_2,   
             type: 'Дуб винчестер серый',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '12 890 ₽',
+            price_komplekt: '18 500 ₽'
         },
         {
             photo: PO_631_3,   
             type: 'Дуб винчестер трюфель',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '12 890 ₽',
+            price_komplekt: '18 500 ₽'
         },
         {
             photo: PO_631_4,   
-            type: 'Лайт Грей',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            type: 'Дуб патина золото',
+            price: '11 010 ₽',
+            price_komplekt: '16 620 ₽'
         },
         {
             photo: PO_631_5,   
-            type: 'Магнолия',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            type: 'Дуб Серена светло-серый',
+            price: '12 890 ₽',
+            price_komplekt: '18 500 ₽'
         },
     ]
 }

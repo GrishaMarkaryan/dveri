@@ -9,37 +9,37 @@ export const po_656_data = {
     URL: '/mezhkomnatnie/po_656',
     name: '656 ПГ',
     photo: PO_656_6,
-    price: 'от 10 656 ₽',
+    price: 'от 13 210 ₽',
     types: [
         {
             photo: PO_656_1,   
             type: 'Белоснежно-матовый',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '13 210 ₽',
+            price_komplekt: '19 370 ₽'
         },
         {
             photo: PO_656_3,   
             type: 'Дарк Вайт',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '13 210 ₽',
+            price_komplekt: '19 370 ₽'
         },
         {
             photo: PO_656_4,   
             type: 'Магнолия',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '13 210 ₽',
+            price_komplekt: '19 370 ₽'
         },
         {
             photo: PO_656_5,   
             type: 'Медиум грей',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '13 210 ₽',
+            price_komplekt: '19 370 ₽'
         },
         {
             photo: PO_656_6,   
             type: 'Шелл Грей',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '13 210 ₽',
+            price_komplekt: '19 370 ₽'
         },
     
     ]

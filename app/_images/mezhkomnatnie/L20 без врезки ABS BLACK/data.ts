@@ -5,13 +5,13 @@ export const l20_data = {
     URL: '/mezhkomnatnie/l20',
     name: 'L20 без врезки ABS BLACK',
     photo: l20_2,
-    price: 'от 10 640 ₽',
+    price: 'от 8 130 ₽',
     types: [
         {
             photo: l20_2,   
             type: 'Дуб Винчестер Трюфель',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '8 130 ₽',
+            price_komplekt: '11 530 ₽'
         },
     ]
 }

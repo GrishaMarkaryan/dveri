@@ -11,49 +11,49 @@ export const po_625_data = {
     URL: '/mezhkomnatnie/po_625',
     name: '625 ПО',
     photo: PO_625_4,
-    price: 'от 10 640 ₽',
+    price: 'от 7 960 ₽',
     types: [
         {
             photo: PO_625_1,   
             type: 'Белоснежно-матовый',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '9 440 ₽',
+            price_komplekt: '15 600 ₽'
         },
         {
             photo: PO_625_2,   
             type: 'Дуб винчестер светлый',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '7 960 ₽',
+            price_komplekt: '13 570 ₽'
         },
         {
             photo: PO_625_3,   
             type: 'Дуб винчестер серый',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '7 960 ₽',
+            price_komplekt: '13 570 ₽'
         },
         {
             photo: PO_625_4,   
             type: 'Дуб винчестер трюфель',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '7 960 ₽',
+            price_komplekt: '13 570 ₽'
         },
         {
             photo: PO_625_5,   
             type: 'Лайт Грей',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '9 440 ₽',
+            price_komplekt: '15 600 ₽'
         },
         {
             photo: PO_625_6,   
             type: 'Магнолия',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '9 440 ₽',
+            price_komplekt: '15 600 ₽'
         },
         {
             photo: PO_625_7,   
             type: 'Шелл Грей',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '9 440 ₽',
+            price_komplekt: '15 600 ₽'
         },
     ]
 }

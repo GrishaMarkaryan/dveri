@@ -10,43 +10,43 @@ export const po_628_data = {
     URL: '/mezhkomnatnie/po_628',
     name: '628 ПО',
     photo: PO_628_2,
-    price: 'от 10 640 ₽',
+    price: 'от 9 290 ₽',
     types: [
         {
             photo: PO_628_1,   
             type: 'Белоснежно-матовый',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '9 290 ₽',
+            price_komplekt: '15 450 ₽'
         },
         {
             photo: PO_628_2,   
             type: 'Дарк Вайт',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '9 290 ₽',
+            price_komplekt: '15 450 ₽'
         },
         {
             photo: PO_628_3,   
             type: 'Лайт Грей',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '9 290 ₽',
+            price_komplekt: '15 450 ₽'
         },
         {
             photo: PO_628_4,   
             type: 'Магнолия',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+           price: '9 290 ₽',
+            price_komplekt: '15 450 ₽'
         },
         {
             photo: PO_628_5,   
             type: 'Медиум грей',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '9 290 ₽',
+            price_komplekt: '15 450 ₽'
         },
         {
             photo: PO_628_6,   
             type: 'Шелл Грей',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '9 290 ₽',
+            price_komplekt: '15 450 ₽'
         },    
     ]
 }

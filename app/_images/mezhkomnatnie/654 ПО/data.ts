@@ -9,37 +9,37 @@ export const po_654_data = {
     URL: '/mezhkomnatnie/po_654',
     name: '654 ПО',
     photo: PO_654_4,
-    price: 'от 10 654 ₽',
+    price: 'от 10 690 ₽',
     types: [
         {
             photo: PO_654_1,   
             type: 'Белоснежно-матовый',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '10 690 ₽',
+            price_komplekt: '16 850 ₽'
         },
         {
             photo: PO_654_2,   
             type: 'Дарк Вайт',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '10 690 ₽',
+            price_komplekt: '16 850 ₽'
         },
         {
             photo: PO_654_3,   
             type: 'Лайт Грей',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '10 690 ₽',
+            price_komplekt: '16 850 ₽'
         },
         {
             photo: PO_654_4,   
             type: 'Медиум грей',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '10 690 ₽',
+            price_komplekt: '16 850 ₽'
         },
         {
             photo: PO_654_5,   
             type: 'Шелл Грей',
-            price: '10 250 ₽',
-            price_komplekt: '16 410 ₽'
+            price: '10 690 ₽',
+            price_komplekt: '16 850 ₽'
         },
     
     ]
