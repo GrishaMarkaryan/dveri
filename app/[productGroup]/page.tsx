@@ -28,7 +28,7 @@ export default async function ProductGroup({ params }: {
     return (
         <div className="pb-[50px] md:pb-[100px]">
             <div className="flex justify-center items-center text-xl font-bold p-8 mb-8 bg-stone-200 w-full"> {defineCategory((await params).productGroup)} </div>
-            <div className="flex flex-wrap justify-between md:justify-start md:gap-12 mx-7 md:mx-10">
+            <div className="flex flex-wrap justify-between md:justify-start md:gap-10 mx-7 md:mx-10">
                 {productGroupArray.map((item) =>
                     <div key={item.URL} className="flex flex-col justify-between rounded-b-3xl w-[90px] mt-4 md:mt-auto md:w-52 bg-stone-200 hover:scale-105 duration-200 shadow-stone-400 md:shadow-sm">
                         <Link href={`${item.URL}`} className="flex flex-col justify-between">
@@ -36,7 +36,7 @@ export default async function ProductGroup({ params }: {
                                 <Image src={item.photo} alt='itemPhoto' className="h-full w-full" />
                             </div>
                             <div className="flex flex-col justify-between border-t-black border-2 px-2 md:p-3">
-                                <div className="flex text-[11px] h-[25px] max-w-[150px] md:h-[25px] md:max-w-none md:font-medium md:text-[16px] my-2"> {item.name} </div>
+                                <div className="flex text-[11px] h-[25px] max-w-[150px] md:h-[25px] md:max-w-none md:font-semibold md:text-[16px] my-2"> {item.name} </div>
                                 <div className="flex flex-col text-xs  md:text-lg md:flex-row md:items-center md:gap-3 mt-2">
                                     <div className="text-blue-700"> {item.price}</div>
                                 </div>

@@ -13,6 +13,13 @@ export default function ClientProduct({ product, productGroup }: {
     const productTypes = product?.types;
     const [doorType, setDoorType] = useState<ProductType | null>(productTypes ? productTypes[0] : null)
 
+    const handleImgClick = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    }
+
     return (
         <div>
 
@@ -89,7 +96,7 @@ export default function ClientProduct({ product, productGroup }: {
                     <div className="flex flex-row  xl:justify-left flex-wrap gap-6">
                         {productTypes && productTypes.map((item) =>
                             <div key={item.type} className="flex" onClick={() => setDoorType(item)}>
-                                <div className="flex flex-col items-center w-fit cursor-pointer">
+                                <div onClick={handleImgClick} className="flex flex-col items-center w-fit cursor-pointer">
                                     <div className="flex gap-1">
                                         <div className="text-xs"> {item.type}</div>
                                         {productGroup === 'metallicheskie' &&
