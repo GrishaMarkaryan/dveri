@@ -4,7 +4,7 @@ import sibir_steklopaket_001 from './001.jpg';
 export const granit_sibir_steklopaket = {
     id: 'granit_sibir_steklopaket', 
     URL: '/metallicheskie/granit_sibir_steklopaket',
-    name:'Гранит Сибирь Стеклопакет',
+    name:'Сибирь Стеклопакет',
     photo: sibir_steklopaket,
     price: 'от 25 900 ₽',
     types: [
