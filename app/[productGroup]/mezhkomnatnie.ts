@@ -1,3 +1,5 @@
+import { Product } from './all-products';
+
 import { po_538_data } from '../_images/mezhkomnatnie/538 ПО/data';
 import { po_601_data } from '../_images/mezhkomnatnie/601 ПО/data';
 import { po_604_data } from '../_images/mezhkomnatnie/604 ПО/data';
@@ -46,8 +48,18 @@ import { DR_Garmoniya } from '../_images/mezhkomnatnie/DR_Гармония/data'
 import { DR_London2 } from '../_images/mezhkomnatnie/DR_Лондон2/data';
 import { DR_Premyer } from '../_images/mezhkomnatnie/DR_Премьер/data';
 import { DR_Foborg } from '../_images/mezhkomnatnie/DR_Фоборг/data';
-
-import { Product } from './all-products';
+import { white01 } from '../_images/mezhkomnatnie/Вайт 01/data';
+import { white02 } from '../_images/mezhkomnatnie/Вайт 02/data';
+import { kombo01 } from '../_images/mezhkomnatnie/Комбо 01/data';
+import { kombo02 } from '../_images/mezhkomnatnie/Комбо 02/data';
+import { strato01 } from '../_images/mezhkomnatnie/Страто 01/data';
+import { strato02 } from '../_images/mezhkomnatnie/Страто 02/data';
+import { frame01 } from '../_images/mezhkomnatnie/Фрейм 01/data';
+import { frame02 } from '../_images/mezhkomnatnie/Фрейм 02/data';
+import { frame03 } from '../_images/mezhkomnatnie/Фрейм 03/data';
+import { frame07 } from '../_images/mezhkomnatnie/Фрейм 07/data';
+import { frame09 } from '../_images/mezhkomnatnie/Фрейм 09/data';
+import { frame10 } from '../_images/mezhkomnatnie/Фрейм 10/data';
 
 export const mezhkomnatnie:Product[] = [
     po_538_data,
@@ -98,4 +110,16 @@ export const mezhkomnatnie:Product[] = [
     DR_London2,
     DR_Premyer,
     DR_Foborg,
+    white01,
+    white02,
+    kombo01,
+    kombo02,
+    strato01,
+    strato02,
+    frame01,
+    frame02,
+    frame03,
+    frame07,
+    frame09,
+    frame10,
 ]
