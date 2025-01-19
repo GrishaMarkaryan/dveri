@@ -41,7 +41,7 @@ export default function Header() {
                     </div>
                     <Link href={'/'} className="flex ml-4 lg:ml-12 p-3 gap-2 items-center transition-all ease-linear hover:text-gray-300">
                         <Image src={icon} alt="icon" height={42} />
-                        <div className="flex font-bold text-xl "> ДВЕРНАЯ ЯРМАРКА </div>
+                        <h1 className="flex font-bold text-xl "> ДВЕРНАЯ ЯРМАРКА </h1>
                     </Link>
                 </div>
 
