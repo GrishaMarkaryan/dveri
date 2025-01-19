@@ -5,19 +5,24 @@ import { AiFillDollarCircle } from "react-icons/ai";
 import Image from "next/image";
 import Production from "./production";
 import mainImage from '@/app/_images/main-image.jpg'
+import Head from "next/head";
 
 
 export default function Main() {
     return (
         <div className="bg-stone-300">
-
+            <Head>
+                <title> Дверная ярмарка </title>
+                <meta name="description" content="Купить металлические и межкомнатные двери в г. Сергиев Посад" />
+                <meta name="keywords" content="металлические двери, межкомнатные двери, двери купить, дверная ярмарка, Дверная Ярмарка Сергиев Посад, двери Сергиев Посад" />
+            </Head>
             <div className="relative w-full h-[500px] md:h-[750px] flex justify-center items-center ">
                 <Image
                     src={mainImage}
                     alt="mainImage"
                     layout="fill"
                     className="w-full object-cover absolute z-0" />
-                <div className="text-white px-[10%] text-[25px] md:text-[40px] lg:text-[45px] bg-gray-600 bg-opacity-50 absolute z-5"> МЕТАЛЛИЧЕСКИЕ И МЕЖКОМНАТНЫЕ ДВЕРИ В Г. СЕРГИЕВ ПОСАД<span className="text-black font-medium"></span></div>
+                <h1 className="text-white px-[10%] text-[25px] md:text-[40px] lg:text-[45px] bg-gray-600 bg-opacity-50 absolute z-5"> МЕТАЛЛИЧЕСКИЕ И МЕЖКОМНАТНЫЕ ДВЕРИ В Г. СЕРГИЕВ ПОСАД<span className="text-black font-medium"></span></h1>
             </div>
 
             <Production />
