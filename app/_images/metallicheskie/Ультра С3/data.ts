@@ -56,7 +56,7 @@ export const granit_ultra_c3 = {
     URL: '/metallicheskie/granit_ultra_c3',
     name:'Гранит Ультра С3',
     photo: ultra_c3,
-    price: 'от 34900 ₽',
+    price: 'от 34 900 ₽',
     types: [
         {
             photo: ultra_c3_000,
