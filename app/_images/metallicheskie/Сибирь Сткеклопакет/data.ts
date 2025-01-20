@@ -6,13 +6,13 @@ export const granit_sibir_steklopaket = {
     URL: '/metallicheskie/granit_sibir_steklopaket',
     name:'Сибирь Стеклопакет',
     photo: sibir_steklopaket,
-    price: 'от 25 900 ₽',
+    price: 'от 95 900 ₽',
     types: [
         {
             photo: sibir_steklopaket_001,
             type: '001',
             color: 'Без панели',
-            price: '25 900 ₽',
+            price: '95 900 ₽',
         },
     ]
 }

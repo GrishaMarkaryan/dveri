@@ -4,7 +4,7 @@ import { AiFillDollarCircle } from "react-icons/ai";
 
 import Image from "next/image";
 import Production from "./production";
-import mainImage from '@/app/_images/main-image.jpg'
+import mainImage from '@/app/_images/main-page/main-image.jpg'
 import Head from "next/head";
 
 

@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import Image from "next/image";
-import icon from '@/app/_images/icon.jpg'
+import icon from '@/app/_images/main-page/icon.jpg'
 import Contacts from './contacts';
 import { TiThMenu } from "react-icons/ti";
 import { useState, useRef, useEffect } from "react";
