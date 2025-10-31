@@ -1,4 +1,4 @@
-import PO_620_1 from './Дуб патина золото.jpg'
+import PO_620_1 from './Дуб патина золото.webp'
 
 export const po_620_data = {
     id: 'po_620',

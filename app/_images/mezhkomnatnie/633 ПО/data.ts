@@ -1,5 +1,5 @@
-import PO_633_1 from './Белоснежно матовый.jpg';
-import PO_633_2 from './Шелл Грей.jpg';
+import PO_633_1 from './Белоснежно матовый.webp';
+import PO_633_2 from './Шелл Грей.webp';
 
 export const po_633_data = {
     id: 'po_633',

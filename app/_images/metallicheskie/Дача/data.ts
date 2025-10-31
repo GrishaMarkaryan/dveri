@@ -1,5 +1,5 @@
-import Dacha from './дача.jpg';
-import Dacha_001 from './001.jpg';
+import Dacha from './дача.webp';
+import Dacha_001 from './001.webp';
 
 export const granit_Dacha = {
     id: 'granit_Dacha', 

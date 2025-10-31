@@ -1,4 +1,4 @@
-import l20_2 from './Дуб винчестер трюфель.jpg';
+import l20_2 from './Дуб винчестер трюфель.webp';
 
 export const l20_data = {
     id: 'l20',

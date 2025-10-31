@@ -1,8 +1,8 @@
-import l1_1 from './Белый сатин.jpg';
-import l1_2 from './Дуб Французский.jpg';
-import l1_3 from './Лиственница кремовая.jpg';
-import l1_4 from './Лиственница серая.jpg';
-import l1_5 from './Орех Макадамия.jpg';
+import l1_1 from './Белый сатин.webp';
+import l1_2 from './Дуб Французский.webp';
+import l1_3 from './Лиственница кремовая.webp';
+import l1_4 from './Лиственница серая.webp';
+import l1_5 from './Орех Макадамия.webp';
 
 export const l1_data = {
     id: 'l1',

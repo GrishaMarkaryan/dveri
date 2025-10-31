@@ -1,4 +1,4 @@
-import PO_652_1 from './Белоснежно матовый.jpg'
+import PO_652_1 from './Белоснежно матовый.webp'
 
 export const po_652_data = {
     id: 'po_652',

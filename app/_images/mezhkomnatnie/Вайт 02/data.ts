@@ -1,7 +1,7 @@
-import white02_dub from './Дуб патинированный.jpeg'
-import white02_dub_steklo from './Дуб патинированный стекло.jpeg'
-import white02_yasen from './Ясень айсберг.jpeg'
-import white02_yasen_steklo from './Ясень айсберг стекло.jpeg'
+import white02_dub from './Дуб патинированный.webp'
+import white02_dub_steklo from './Дуб патинированный стекло.webp'
+import white02_yasen from './Ясень айсберг.webp'
+import white02_yasen_steklo from './Ясень айсберг стекло.webp'
 
 export const white02 = {
     id: 'white02',

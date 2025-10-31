@@ -1,7 +1,7 @@
-import l10_2 from './Белый сатин.jpg';
-import l10_5 from './Дуб Французский.jpg';
-import l10_8 from './Орех Макадамия.jpg';
-import l10_9 from './Серый сатин.jpg';
+import l10_2 from './Белый сатин.webp';
+import l10_5 from './Дуб Французский.webp';
+import l10_8 from './Орех Макадамия.webp';
+import l10_9 from './Серый сатин.webp';
 
 export const l10_data = {
     id: 'l10',

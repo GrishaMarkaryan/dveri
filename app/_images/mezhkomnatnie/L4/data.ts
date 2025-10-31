@@ -1,5 +1,5 @@
-import l4_2 from './Белый сатин.jpg';
-import l4_9 from './Серый сатин.jpg';
+import l4_2 from './Белый сатин.webp';
+import l4_9 from './Серый сатин.webp';
 
 
 export const l4_data = {

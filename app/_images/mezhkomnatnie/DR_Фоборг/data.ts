@@ -1,5 +1,5 @@
-import Foborg_antichni_orekh from './Фоборг античный орех.jpg'
-import Foborg_emal_belaya from './Фоборг белая эмаль.jpg'
+import Foborg_antichni_orekh from './Фоборг античный орех.webp'
+import Foborg_emal_belaya from './Фоборг белая эмаль.webp'
 
 export const DR_Foborg = {
     id: 'dr_foborg',

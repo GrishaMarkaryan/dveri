@@ -1,5 +1,5 @@
-import gross from './гросс.jpg';
-import gross_001 from './001.jpg';
+import gross from './гросс.webp';
+import gross_001 from './001.webp';
 
 export const granit_gross = {
     id: 'granit_gross', 

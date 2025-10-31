@@ -1,6 +1,6 @@
-import PO_662_2 from './Дарк Вайт.jpg';
-import PO_662_4 from './Магнолия.jpg';
-import PO_662_6 from './Шелл Грей.jpg';
+import PO_662_2 from './Дарк Вайт.webp';
+import PO_662_4 from './Магнолия.webp';
+import PO_662_6 from './Шелл Грей.webp';
 
 export const po_662_data = {
     id: 'po_662',

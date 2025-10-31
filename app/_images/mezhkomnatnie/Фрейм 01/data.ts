@@ -1,5 +1,5 @@
-import frame01_derevo from './Красное дерево.jpeg'
-import frame01_derevo_steklo from './Красное дерево стекло.jpeg'
+import frame01_derevo from './Красное дерево.webp'
+import frame01_derevo_steklo from './Красное дерево стекло.webp'
 
 export const frame01 = {
     id: 'frame01',

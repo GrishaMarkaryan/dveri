@@ -1,9 +1,9 @@
-import PO_628_1 from './Белоснежно матовый.jpg';
-import PO_628_2 from './Дарк Вайт.jpg';
-import PO_628_3 from './Лайт Грей.jpg';
-import PO_628_4 from './Магнолия.jpg';
-import PO_628_5 from './Медиум грей.jpg';
-import PO_628_6 from './Шелл Грей.jpg';
+import PO_628_1 from './Белоснежно матовый.webp';
+import PO_628_2 from './Дарк Вайт.webp';
+import PO_628_3 from './Лайт Грей.webp';
+import PO_628_4 from './Магнолия.webp';
+import PO_628_5 from './Медиум грей.webp';
+import PO_628_6 from './Шелл Грей.webp';
 
 export const po_628_data = {
     id: 'po_628',

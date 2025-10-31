@@ -1,8 +1,8 @@
-import PO_630_1 from './Дуб винчестер светлый.jpg';
-import PO_630_2 from './Дуб винчестер серый.jpg';
-import PO_630_3 from './Дуб винчестер трюфель.jpg';
-import PO_630_4 from './Дуб патина золото.jpg';
-import PO_630_5 from './Дуб Серена светло-серый.jpg';
+import PO_630_1 from './Дуб винчестер светлый.webp';
+import PO_630_2 from './Дуб винчестер серый.webp';
+import PO_630_3 from './Дуб винчестер трюфель.webp';
+import PO_630_4 from './Дуб патина золото.webp';
+import PO_630_5 from './Дуб Серена светло-серый.webp';
 
 export const po_630_data = {
     id: 'po_630',

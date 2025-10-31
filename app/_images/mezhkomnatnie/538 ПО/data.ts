@@ -1,4 +1,4 @@
-import PO_538 from './538 ПО.jpg'
+import PO_538 from './538 ПО.webp'
 
 export const po_538_data = {
     id: 'po_538',

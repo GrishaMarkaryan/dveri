@@ -1,6 +1,6 @@
-import PO_601_1 from './Белоснежно матовый.jpg'
-import PO_601_2 from './Дуб Серена керамика.jpg'
-import PO_601_3 from './Медиум грей.jpg'
+import PO_601_1 from './Белоснежно матовый.webp'
+import PO_601_2 from './Дуб Серена керамика.webp'
+import PO_601_3 from './Медиум грей.webp'
 
 
 export const po_601_data = {

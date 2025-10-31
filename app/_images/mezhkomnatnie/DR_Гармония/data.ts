@@ -1,5 +1,5 @@
-import Garmoniya_antichni_orekh from './Гармония античный орех.jpg'
-import Garmoniya_emal_belaya from './Гармония эмаль белая.jpg'
+import Garmoniya_antichni_orekh from './Гармония античный орех.webp'
+import Garmoniya_emal_belaya from './Гармония эмаль белая.webp'
 
 export const DR_Garmoniya = {
     id: 'dr_garmoniya',

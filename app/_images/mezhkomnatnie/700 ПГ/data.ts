@@ -1,4 +1,4 @@
-import PO_700_1 from './Грунт.jpg'
+import PO_700_1 from './Грунт.webp'
 
 export const po_700_pg_data = {
     id: 'po_700_pg',

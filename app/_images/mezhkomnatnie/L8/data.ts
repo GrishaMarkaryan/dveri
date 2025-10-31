@@ -1,8 +1,8 @@
-import l8_2 from './Белый сатин.jpg';
-import l8_5 from './Дуб Французский.jpg';
-import l8_6 from './Лиственница кремовая.jpg';
-import l8_7 from './Лиственница серая.jpg';
-import l8_8 from './Орех Макадамия.jpg';
+import l8_2 from './Белый сатин.webp';
+import l8_5 from './Дуб Французский.webp';
+import l8_6 from './Лиственница кремовая.webp';
+import l8_7 from './Лиственница серая.webp';
+import l8_8 from './Орех Макадамия.webp';
 
 export const l8_data = {
     id: 'l8',

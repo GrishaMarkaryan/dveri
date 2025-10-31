@@ -1,4 +1,4 @@
-import Premyer_emal_grey from './Премьер эмаль грэй.jpg'
+import Premyer_emal_grey from './Премьер эмаль грэй.webp'
 
 export const DR_Premyer = {
     id: 'dr_premyer',

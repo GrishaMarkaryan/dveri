@@ -1,7 +1,7 @@
-import frame03_dub from './Дуб.jpeg'
-import frame03_dub_steklo from './Дуб стекло.jpeg'
-import frame03_yasen from './Ясень Бисквит.jpeg'
-import frame03_yasen_steklo from './Ясень Бисквит Стекло.jpeg'
+import frame03_dub from './Дуб.webp'
+import frame03_dub_steklo from './Дуб стекло.webp'
+import frame03_yasen from './Ясень Бисквит.webp'
+import frame03_yasen_steklo from './Ясень Бисквит Стекло.webp'
 
 export const frame03 = {
     id: 'frame03',

@@ -1,8 +1,8 @@
-import PO_632_1 from './Белоснежно матовый.jpg';
-import PO_632_2 from './Дарк Вайт.jpg';
-import PO_632_3 from './Лайт Грей.jpg';
-import PO_632_4 from './Магнолия.jpg';
-import PO_632_5 from './Шелл Грей.jpg';
+import PO_632_1 from './Белоснежно матовый.webp';
+import PO_632_2 from './Дарк Вайт.webp';
+import PO_632_3 from './Лайт Грей.webp';
+import PO_632_4 from './Магнолия.webp';
+import PO_632_5 from './Шелл Грей.webp';
 
 export const po_632_data = {
     id: 'po_632',

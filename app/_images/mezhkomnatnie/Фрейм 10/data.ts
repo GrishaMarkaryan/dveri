@@ -1,4 +1,4 @@
-import frame10_yasen from './ясень белоснежный.jpeg'
+import frame10_yasen from './ясень белоснежный.webp'
 
 export const frame10 = {
     id: 'frame10',

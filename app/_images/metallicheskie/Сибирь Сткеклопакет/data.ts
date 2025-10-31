@@ -1,5 +1,5 @@
-import sibir_steklopaket from './сибирь стеклопакет.jpg';
-import sibir_steklopaket_001 from './001.jpg';
+import sibir_steklopaket from './сибирь стеклопакет.webp';
+import sibir_steklopaket_001 from './001.webp';
 
 export const granit_sibir_steklopaket = {
     id: 'granit_sibir_steklopaket', 

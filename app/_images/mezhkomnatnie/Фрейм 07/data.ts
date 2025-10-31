@@ -1,7 +1,7 @@
-import frame07_byanko from './Бьянко.jpeg'
-import frame07_byanko_steklo from './Бьянко стекло.jpeg'
-import frame07_krem from './Крем.jpeg'
-import frame07_krem_steklo from './Крем стекло.jpeg'
+import frame07_byanko from './Бьянко.webp'
+import frame07_byanko_steklo from './Бьянко стекло.webp'
+import frame07_krem from './Крем.webp'
+import frame07_krem_steklo from './Крем стекло.webp'
 
 export const frame07 = {
     id: 'frame07',

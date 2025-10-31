@@ -1,6 +1,6 @@
 import { StaticImageData } from 'next/image'
-import metallicheskie from '@/app/_images/main-page/metallicheskie.png';
-import mezhkomnatnie from '@/app/_images/main-page/mezhkomnatnie.png'
+import metallicheskie from '@/app/_images/main-page/metallicheskie.webp';
+import mezhkomnatnie from '@/app/_images/main-page/mezhkomnatnie.webp'
 
 type MainPageProducts = {
     id: number,

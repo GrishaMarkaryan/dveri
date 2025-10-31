@@ -1,5 +1,5 @@
-import white01_dub from './Дуб.jpeg'
-import white01_dub_steklo from './Дуб стекло.jpeg'
+import white01_dub from './Дуб.webp'
+import white01_dub_steklo from './Дуб стекло.webp'
 
 export const white01 = {
     id: 'white01',

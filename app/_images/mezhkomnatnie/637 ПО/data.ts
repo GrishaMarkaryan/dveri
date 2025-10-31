@@ -1,7 +1,7 @@
-import PO_637_1 from './Белоснежно матовый.jpg';
-import PO_637_2 from './Лайт Грей.jpg';
-import PO_637_3 from './Магнолия.jpg';
-import PO_637_4 from './Шелл Грей.jpg';
+import PO_637_1 from './Белоснежно матовый.webp';
+import PO_637_2 from './Лайт Грей.webp';
+import PO_637_3 from './Магнолия.webp';
+import PO_637_4 from './Шелл Грей.webp';
 
 export const po_637_data = {
     id: 'po_637',

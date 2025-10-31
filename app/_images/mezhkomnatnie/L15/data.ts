@@ -1,5 +1,5 @@
-import l15_2 from './Белый сатин.png';
-import l15_9 from './Серый сатин.png';
+import l15_2 from './Белый сатин.webp';
+import l15_9 from './Серый сатин.webp';
 
 export const l15_data = {
     id: 'l15',

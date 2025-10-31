@@ -1,8 +1,8 @@
-import PO_654_1 from './Белоснежно матовый.jpg';
-import PO_654_2 from './Дарк Вайт.jpg';
-import PO_654_3 from './Лайт Грей.jpg';
-import PO_654_4 from './Медиум грей.jpg';
-import PO_654_5 from './Шелл Грей.jpg';
+import PO_654_1 from './Белоснежно матовый.webp';
+import PO_654_2 from './Дарк Вайт.webp';
+import PO_654_3 from './Лайт Грей.webp';
+import PO_654_4 from './Медиум грей.webp';
+import PO_654_5 from './Шелл Грей.webp';
 
 export const po_654_data = {
     id: 'po_654',

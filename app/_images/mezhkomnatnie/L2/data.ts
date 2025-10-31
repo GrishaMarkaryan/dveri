@@ -1,12 +1,12 @@
-import l2_1 from './Белая мелинга.jpg';
-import l2_2 from './Белый сатин.jpg';
-import l2_3 from './Бетон снежный.jpg';
-import l2_4 from './Дyб капучино.jpg';
-import l2_5 from './Дуб Французский.jpg';
-import l2_6 from './Лиственница кремовая.jpg';
-import l2_7 from './Лиственница серая.jpg';
-import l2_8 from './Орех Макадамия.jpg';
-import l2_9 from './Серый сатин.jpg';
+import l2_1 from './Белая мелинга.webp';
+import l2_2 from './Белый сатин.webp';
+import l2_3 from './Бетон снежный.webp';
+import l2_4 from './Дyб капучино.webp';
+import l2_5 from './Дуб Французский.webp';
+import l2_6 from './Лиственница кремовая.webp';
+import l2_7 from './Лиственница серая.webp';
+import l2_8 from './Орех Макадамия.webp';
+import l2_9 from './Серый сатин.webp';
 
 
 export const l2_data = {

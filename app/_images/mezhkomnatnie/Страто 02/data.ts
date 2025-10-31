@@ -1,5 +1,5 @@
-import strato02_tonirovanni from './Тонированный черный дуб.jpeg'
-import strato02_yasen from './Ясень айсберг.jpeg'
+import strato02_tonirovanni from './Тонированный черный дуб.webp'
+import strato02_yasen from './Ясень айсберг.webp'
 
 export const strato02 = {
     id: 'strato02',

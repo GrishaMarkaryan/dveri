@@ -1,5 +1,5 @@
-import London2_emal_belaya from './Лондон2 белая эмаль.jpg'
-import London2_emal_grey from './Лондон2 эмаль грэй.jpg'
+import London2_emal_belaya from './Лондон2 белая эмаль.webp'
+import London2_emal_grey from './Лондон2 эмаль грэй.webp'
 
 export const DR_London2 = {
     id: 'dr_london2',

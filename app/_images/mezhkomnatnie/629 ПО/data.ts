@@ -1,8 +1,8 @@
-import PO_629_1 from './Белоснежно матовый.jpg';
-import PO_629_2 from './Лайт Грей.jpg';
-import PO_629_3 from './Магнолия.jpg';
-import PO_629_4 from './Медиум грей.jpg';
-import PO_629_5 from './Шелл Грей.jpg';
+import PO_629_1 from './Белоснежно матовый.webp';
+import PO_629_2 from './Лайт Грей.webp';
+import PO_629_3 from './Магнолия.webp';
+import PO_629_4 from './Медиум грей.webp';
+import PO_629_5 from './Шелл Грей.webp';
 
 export const po_629_data = {
     id: 'po_629',

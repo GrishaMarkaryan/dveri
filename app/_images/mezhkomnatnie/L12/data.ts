@@ -1,4 +1,4 @@
-import l12_2 from './Белый сатин.jpg';
+import l12_2 from './Белый сатин.webp';
 
 export const l12_data = {
     id: 'l12',

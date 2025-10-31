@@ -1,10 +1,10 @@
-import PO_626_1 from './Белоснежно матовый.jpg';
-import PO_626_2 from './Дуб винчестер светлый.jpg';
-import PO_626_3 from './Дуб винчестер серый.jpg';
-import PO_626_4 from './Дуб винчестер трюфель.jpg';
-import PO_626_5 from './Лайт Грей.jpg';
-import PO_626_6 from './Магнолия.jpg';
-import PO_626_7 from './Шелл Грей.jpg';
+import PO_626_1 from './Белоснежно матовый.webp';
+import PO_626_2 from './Дуб винчестер светлый.webp';
+import PO_626_3 from './Дуб винчестер серый.webp';
+import PO_626_4 from './Дуб винчестер трюфель.webp';
+import PO_626_5 from './Лайт Грей.webp';
+import PO_626_6 from './Магнолия.webp';
+import PO_626_7 from './Шелл Грей.webp';
 
 export const po_626_data = {
     id: 'po_626',

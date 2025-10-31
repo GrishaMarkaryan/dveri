@@ -1,5 +1,5 @@
-import kombo01_byanko from './Бьянко.jpeg'
-import kombo01_krem from './Крем.jpeg'
+import kombo01_byanko from './Бьянко.webp'
+import kombo01_krem from './Крем.webp'
 
 export const kombo01 = {
     id: 'kombo01',

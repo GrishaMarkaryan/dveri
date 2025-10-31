@@ -1,6 +1,6 @@
-import PO_608_1 from './Белоснежно матовый.png'
-import PO_608_2 from './Дуб винчестер трюфель.png'
-import PO_608_3 from './Шелл Грей.jpg'
+import PO_608_1 from './Белоснежно матовый.webp'
+import PO_608_2 from './Дуб винчестер трюфель.webp'
+import PO_608_3 from './Шелл Грей.webp'
 
 export const po_608_data = {
     id: 'po_608',

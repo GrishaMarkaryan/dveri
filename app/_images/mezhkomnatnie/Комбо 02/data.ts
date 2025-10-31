@@ -1,4 +1,4 @@
-import kombo02_yasen from './Ясень белоснежный.jpeg'
+import kombo02_yasen from './Ясень белоснежный.webp'
 
 export const kombo02 = {
     id: 'kombo02',
