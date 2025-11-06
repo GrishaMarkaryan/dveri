@@ -10,6 +10,13 @@ export type Products = {
     price: number,
 }
 
+export async function generateStaticParams() {
+  // Здесь предполагаем, что ключи объекта allProducts — это группы товаров
+  return Object.keys(allProducts).map((key) => ({
+    productGroup: key,
+  }));
+}
+
 export default async function ProductGroup({ params }: {
     params: Promise<{
         productGroup: string,
